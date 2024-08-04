@@ -23,6 +23,7 @@ public class AuthController {
         this.userDetailsService = userDetailsService;
     }
 
+    // Verify user credentials and generate JWT
     @PostMapping("/login")
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthRequest authRequest) throws Exception {
         // Authenticate user
