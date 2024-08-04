@@ -15,3 +15,20 @@
 ## Class Diagram
 
 ## Database Diagram
+
+## Security Diagram
+![alt text](securityDiagram.png)
+
+*Note:*
+- Chỉnh SecurityFilterChain trong SecurityConfig để giới hạn truy cập vào hàm
+
+Ex:
+
+    .requestMatchers("/api/auth/**").permitAll() // Cho phép tất cả mọi người truy cập vào các endpoint này
+
+    .requestMatchers("/admin/**").hasRole("ADMIN") // Chỉ cho phép role ADMIN truy cập vào các endpoint bắt đầu bằng /admin/
+    
+    .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN") // Cho phép cả role USER và ADMIN truy cập vào các endpoint bắt đầu bằng /user/
+
+- Thêm @PreAuthorize("hasRole('ADMIN')") vào mỗi method trong controller tương ứng để giới hạn quyền truy cập
+- Đổi secret key trong JwtTokenUtil
