@@ -12,13 +12,14 @@
 ## Deadline
 - **Project Completion Deadline:** 21/08/2024
 
-## Class Diagram
+## Class Diagram (Tạm thời)
+![alt text](Diagram/classDiagram.png)
 
 ## Database Diagram (Tạm thời)
-![alt text](database.png)
+![alt text](Diagram/databaseDiagram.png)
 
-## Security Diagram
-![alt text](securityDiagram.png)
+## Security Diagram (Tạm thời)
+![alt text](Diagram/securityDiagram.png)
 
 *Note:*
 - Chỉnh SecurityFilterChain trong SecurityConfig để giới hạn truy cập vào hàm
