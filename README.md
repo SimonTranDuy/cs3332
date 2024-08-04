@@ -14,7 +14,8 @@
 
 ## Class Diagram
 
-## Database Diagram
+## Database Diagram (Tạm thời)
+![alt text](database.png)
 
 ## Security Diagram
 ![alt text](securityDiagram.png)
