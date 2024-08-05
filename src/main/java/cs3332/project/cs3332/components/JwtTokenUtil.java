@@ -3,10 +3,11 @@ package cs3332.project.cs3332.components;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
-
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
+import jakarta.annotation.PostConstruct;
+import java.security.Key;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +16,12 @@ import java.util.function.Function;
 @Component
 public class JwtTokenUtil {
 
-    private String secret = "your_secret_key"; // Secret key for JWT
+    private Key secretKey;
+
+    @PostConstruct
+    public void init() {
+        secretKey = Keys.secretKeyFor(io.jsonwebtoken.SignatureAlgorithm.HS256); // Auto-generate secret key
+    }
 
     // Extract username from token
     public String extractUsername(String token) {
@@ -34,7 +40,7 @@ public class JwtTokenUtil {
     }
 
     private Claims extractAllClaims(String token) {
-        return Jwts.parserBuilder().setSigningKey(secret).build().parseClaimsJws(token).getBody();
+        return Jwts.parserBuilder().setSigningKey(secretKey).build().parseClaimsJws(token).getBody();
     }
 
     private Boolean isTokenExpired(String token) {
@@ -53,7 +59,7 @@ public class JwtTokenUtil {
                    .setSubject(subject)
                    .setIssuedAt(new Date(System.currentTimeMillis()))
                    .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60 * 10))
-                   .signWith(Keys.hmacShaKeyFor(secret.getBytes()))
+                   .signWith(secretKey)
                    .compact();
     }
 
