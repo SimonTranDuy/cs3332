@@ -1,0 +1,2514 @@
+[
+    {
+        "Mã học phần": "FLE1204",
+        "Tên học phần": "language communication skills 2",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE1205",
+        "Tên học phần": "dealing with texts 2",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE1207",
+        "Tên học phần": "professional skills 1",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3072E",
+        "Tên học phần": "operating systems",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BFL5091",
+        "Tên học phần": "esp project",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "7.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL0400",
+        "Tên học phần": "toeic 400",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "FL0500",
+        "Tên học phần": "toeic 500",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "IT3910",
+        "Tên học phần": "project i",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3920",
+        "Tên học phần": "project ii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3930",
+        "Tên học phần": "project ii",
+        "Thời lượng": "2(0-0-4-8)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "PE2015",
+        "Tên học phần": "aerobic i",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "PE2025",
+        "Tên học phần": "aerobic ii",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "MS3227",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "EE4312",
+        "Tên học phần": "robot",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FLE3101",
+        "Tên học phần": "english for professional purposes 2",
+        "Thời lượng": "4(3-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "PH4050",
+        "Tên học phần": "laser",
+        "Thời lượng": "2(2-1-0.5-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PH4530",
+        "Tên học phần": "cad and cam",
+        "Thời lượng": "3(3-0-2-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PH1110E",
+        "Tên học phần": "basic physics",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4825",
+        "Tên học phần": "robot",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "HE4031",
+        "Tên học phần": "tua bin",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "BF4160",
+        "Tên học phần": "cn enzym",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.8"
+    },
+    {
+        "Mã học phần": "BF4410",
+        "Tên học phần": "cn enzym",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BF4530",
+        "Tên học phần": "cn protein",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BF4590",
+        "Tên học phần": "cn axit amin",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.8"
+    },
+    {
+        "Mã học phần": "BF4620",
+        "Tên học phần": "cn vacxin",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FL1102",
+        "Tên học phần": "toeic ii",
+        "Thời lượng": "0(0-6-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3901",
+        "Tên học phần": "fe training course",
+        "Thời lượng": " ",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "HE3xxx",
+        "Tên học phần": "chdcvchmtlt",
+        "Thời lượng": "x",
+        "Số tín chỉ": "3",
+        "TC học phí": "5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3210",
+        "Tên học phần": "c programming language",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI1012",
+        "Tên học phần": "math i",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI1022",
+        "Tên học phần": "math ii",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PH1018",
+        "Tên học phần": "physics i",
+        "Thời lượng": "4(4-0-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3312E",
+        "Tên học phần": "data structures & algorithms",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT3230E",
+        "Tên học phần": "data structures and algorithms basic lab",
+        "Thời lượng": "2(0-4-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "ET2015",
+        "Tên học phần": "electronics",
+        "Thời lượng": "4(3-1-1-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI1032",
+        "Tên học phần": "math iii",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PH1028",
+        "Tên học phần": "physics ii",
+        "Thời lượng": "4(3-1-1-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME4158",
+        "Tên học phần": "robotics",
+        "Thời lượng": "3(3-1-0.5-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3022E",
+        "Tên học phần": "discrete math",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3240E",
+        "Tên học phần": "data structures and algorithms advanced lab",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3250E",
+        "Tên học phần": "computer ethics",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3260E",
+        "Tên học phần": "logic circuit",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3270E",
+        "Tên học phần": "logic circuit lab",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI1042",
+        "Tên học phần": "math iv",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "MI2022",
+        "Tên học phần": "probability theory",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FLE1101",
+        "Tên học phần": "language communication skills 1",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE1102",
+        "Tên học phần": "dealing with texts 1",
+        "Thời lượng": "4(2-2-2-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "7",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE1103",
+        "Tên học phần": "learning to learn 1",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4142E",
+        "Tên học phần": "introduction to data science",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4242E",
+        "Tên học phần": "machine learning and data mining",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4342E",
+        "Tên học phần": "computer vision",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3150",
+        "Tên học phần": "project i",
+        "Thời lượng": "2(0-0-4-8)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1144",
+        "Tên học phần": "listening",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3290E",
+        "Tên học phần": "database lab",
+        "Thời lượng": "2(0-4-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4182E",
+        "Tên học phần": "compiler construction lab",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3280E",
+        "Tên học phần": "assembly language and computer architecture lab",
+        "Thời lượng": "2(0-4-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4552E",
+        "Tên học phần": "web programming",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4062E",
+        "Tên học phần": "network programming",
+        "Thời lượng": "2(0-4-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4944E",
+        "Tên học phần": "itss linux system and network management",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4945E",
+        "Tên học phần": "itss software development",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4946E",
+        "Tên học phần": "itss embedded linux",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4947E",
+        "Tên học phần": "itss project management for embedded system",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3931",
+        "Tên học phần": "project ii",
+        "Thời lượng": "2(0-0-4-8)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3932",
+        "Tên học phần": "project ii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3940",
+        "Tên học phần": "project iii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3942",
+        "Tên học phần": "project iii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME3209",
+        "Tên học phần": "robotics",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3082E",
+        "Tên học phần": "computer network",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3292E",
+        "Tên học phần": "database",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3282E",
+        "Tên học phần": "computer architecture",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "TEX2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT2030",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "EV2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "BF2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "MSE2024",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3943",
+        "Tên học phần": "project iii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ED3340",
+        "Tên học phần": "e-learning",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ED4090",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ART1133",
+        "Tên học phần": "visual art",
+        "Thời lượng": " ",
+        "Số tín chỉ": "2",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BUS3320",
+        "Tên học phần": "innovative practices & thought",
+        "Thời lượng": " ",
+        "Số tín chỉ": "1",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BUS3382",
+        "Tên học phần": "business communication",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BUS4474",
+        "Tên học phần": "business & society",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BUS4480",
+        "Tên học phần": "business seminar",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS2250",
+        "Tên học phần": "computer science 1",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS2255",
+        "Tên học phần": "computer science 2",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3310",
+        "Tên học phần": "foundation of computer science",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3323",
+        "Tên học phần": "data structures",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3329",
+        "Tên học phần": "analysis of algorithm",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3331",
+        "Tên học phần": "fundamentals of artificial intelligence",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3332",
+        "Tên học phần": "software engineering 1",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3360",
+        "Tên học phần": "concepts of objective -oriented program",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3365",
+        "Tên học phần": "introduction to computer organization and architecture",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3370",
+        "Tên học phần": "nature of programming language",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS3372",
+        "Tên học phần": "formal language and the theory of computation",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4420",
+        "Tên học phần": "introduction to database system",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4443",
+        "Tên học phần": "web based software development",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4445",
+        "Tên học phần": "data communication and networking",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4447",
+        "Tên học phần": "systems analysis and design",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4448",
+        "Tên học phần": "operating system",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CS4451",
+        "Tên học phần": "computer security",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ECO3351",
+        "Tên học phần": "intermediate macroeconomics",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ECO3352",
+        "Tên học phần": "intermediate microeconomics",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ECO3353",
+        "Tên học phần": "money and banking",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ECO4451",
+        "Tên học phần": "global trade",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FLE2215",
+        "Tên học phần": "international studies 2",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE2212",
+        "Tên học phần": "english for professional purposes 1",
+        "Thời lượng": "4(3-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE2213",
+        "Tên học phần": "theory of translation and interpretation",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE3102",
+        "Tên học phần": "translation and interpretation practice 1",
+        "Thời lượng": "4(3-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE3103",
+        "Tên học phần": "language awareness",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE3205",
+        "Tên học phần": "english for professional purposes 3",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE3206",
+        "Tên học phần": "translation and interpretation practice 2",
+        "Thời lượng": "4(3-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "5",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE3207",
+        "Tên học phần": "phonetics and phonology",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE4102",
+        "Tên học phần": "translation and interpretation practice 3",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE4103",
+        "Tên học phần": "english literature",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE4205",
+        "Tên học phần": "work placement",
+        "Thời lượng": "4(0-0-8-16)",
+        "Số tín chỉ": "4",
+        "TC học phí": "10",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "FLE4206",
+        "Tên học phần": "graduation paper in english",
+        "Thời lượng": "8(0-0-16-32)",
+        "Số tín chỉ": "8",
+        "TC học phí": "20",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3402E",
+        "Tên học phần": "web information system",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4042E",
+        "Tên học phần": "artificial intelligence",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4442E",
+        "Tên học phần": "human interface",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4612E",
+        "Tên học phần": "distributed system",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4682E",
+        "Tên học phần": "multimedia communication",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT5021E",
+        "Tên học phần": "graduation research 1",
+        "Thời lượng": "3(0-0-6-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "7.5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME4102Q",
+        "Tên học phần": "fms & cim",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "HE2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME2021",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI2030",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "PH2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(3-0-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "CH2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "EM2222",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ET2022",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "EE2023",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "TE2020",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "TE2020E",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "MI2020E",
+        "Tên học phần": "probability and statistics",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3020E",
+        "Tên học phần": "discrete math",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "MI3051E",
+        "Tên học phần": "mathematical optimization",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MI3031E",
+        "Tên học phần": "probability and statistics ii",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3160E",
+        "Tên học phần": "introduction to artificial intelligence",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT3100E",
+        "Tên học phần": "object-oriented programming",
+        "Thời lượng": "3(2-1-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3310E",
+        "Tên học phần": "scientific methodologies for digital transformation",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3070E",
+        "Tên học phần": "operating system",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3080E",
+        "Tên học phần": "computer networks",
+        "Thời lượng": "3(3-0-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3910E",
+        "Tên học phần": "project i",
+        "Thời lượng": "2(0-0-4-8)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3320E",
+        "Tên học phần": "introduction to deep learning",
+        "Thời lượng": "2(2-1-0-6)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4772E",
+        "Tên học phần": "natural language processing",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4343E",
+        "Tên học phần": "computer vision",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4130E",
+        "Tên học phần": "parallel and distributed programming",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "EM2322",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "EM2622",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "EM2522",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "EM2722",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FL1145",
+        "Tên học phần": "speaking",
+        "Thời lượng": "2(1-3-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE2108",
+        "Tên học phần": "language communication skills 3",
+        "Thời lượng": "4(2-2-0-8)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE2109",
+        "Tên học phần": "dealing with texts 3",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FLE2110",
+        "Tên học phần": "professional skills 2",
+        "Thời lượng": "4(2-2-0-6)",
+        "Số tín chỉ": "4",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FLE2111",
+        "Tên học phần": "international studies 1",
+        "Thời lượng": "3(2-1-0-4)",
+        "Số tín chỉ": "3",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL0350",
+        "Tên học phần": "toeic 350",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "ET2105E",
+        "Tên học phần": "data structures and algorithms",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3420E",
+        "Tên học phần": "electronics for information technology",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4110E",
+        "Tên học phần": "scientific computing",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4172E",
+        "Tên học phần": "signal processing",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4593E",
+        "Tên học phần": "introduction to communication enginieering",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3170E",
+        "Tên học phần": "applied algorithms",
+        "Thời lượng": "2(2-0-1-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3.5",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4015E",
+        "Tên học phần": "introduction to information security",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT5023E",
+        "Tên học phần": "graduation research 1",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT5024E",
+        "Tên học phần": "graduation research 2",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4549E",
+        "Tên học phần": "itss software development",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3323E",
+        "Tên học phần": "compiler construction",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4409E",
+        "Tên học phần": "web technologies and e- services",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4785E",
+        "Tên học phần": "mobile programming",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4441E",
+        "Tên học phần": "user interface and user experience",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4210E",
+        "Tên học phần": "embedded systems",
+        "Thời lượng": "3(3-0-1-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4.5",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4735E",
+        "Tên học phần": "iot and applications",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4651E",
+        "Tên học phần": "ip network design and implementation",
+        "Thời lượng": "3(2-0-2-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT5125E",
+        "Tên học phần": "bachelor thesis",
+        "Thời lượng": "6(0-0-12-12)",
+        "Số tín chỉ": "6",
+        "TC học phí": "15",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT2140E",
+        "Tên học phần": "electronics for information technology lab",
+        "Thời lượng": "2(0-4-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ENG1101",
+        "Tên học phần": "english composition 1",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ENG1102",
+        "Tên học phần": "english composition 2",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ENG2205",
+        "Tên học phần": "world literature 1",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ENG2206",
+        "Tên học phần": "world literature 2",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FIN3331",
+        "Tên học phần": "managerial finance 1",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FIN3332",
+        "Tên học phần": "managerial finance 2",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IS3310",
+        "Tên học phần": "introduction to information system",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3910Q",
+        "Tên học phần": "project i",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3920Q",
+        "Tên học phần": "project ii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL1146",
+        "Tên học phần": "reading",
+        "Thời lượng": "2(1-2-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1147",
+        "Tên học phần": "writing",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ME3168Q",
+        "Tên học phần": "robotics",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT3322E",
+        "Tên học phần": "compiler construction",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4012E",
+        "Tên học phần": "information security",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4082E",
+        "Tên học phần": "software engineering",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4272E",
+        "Tên học phần": "computer systems",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4312E",
+        "Tên học phần": "data modeling",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4492E",
+        "Tên học phần": "structured programming",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4592E",
+        "Tên học phần": "information theory",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL1148",
+        "Tên học phần": "foudation writing",
+        "Thời lượng": "2(1-2-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1149",
+        "Tên học phần": "communication skills 2",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1150",
+        "Tên học phần": "working with texts 2",
+        "Thời lượng": "2(1-2-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1141",
+        "Tên học phần": "practical grammar for writing",
+        "Thời lượng": "3(1-4-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1142",
+        "Tên học phần": "communication skills 1",
+        "Thời lượng": "3(1-4-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1143",
+        "Tên học phần": "working with texts 1",
+        "Thời lượng": "3(1-4-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "MI1144E",
+        "Tên học phần": "algebra",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "MI1114E",
+        "Tên học phần": "caculus 1",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "CLE1311",
+        "Tên học phần": "elementary english 1",
+        "Thời lượng": "(3-1-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE1312",
+        "Tên học phần": "elementary english 2",
+        "Thời lượng": "(3-1-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE2311",
+        "Tên học phần": "pre-intermediate english 1",
+        "Thời lượng": "(3-1-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE2312",
+        "Tên học phần": "pre-intermediate english 2",
+        "Thời lượng": "(3-1-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE3401",
+        "Tên học phần": "intermediate english 1",
+        "Thời lượng": "(4-0-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE3402",
+        "Tên học phần": "intermediate english 2",
+        "Thời lượng": "(4-0-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "CLE4401",
+        "Tên học phần": "ielts preparation 1",
+        "Thời lượng": "(4-0-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "EM1622",
+        "Tên học phần": "academic writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "EM1422",
+        "Tên học phần": "academic writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "EM1722",
+        "Tên học phần": "academic writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "EM1522",
+        "Tên học phần": "academic writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4023E",
+        "Tên học phần": "data visualization",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT3930E",
+        "Tên học phần": "project ii",
+        "Thời lượng": "2(0-0-4-8)",
+        "Số tín chỉ": "2",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3940E",
+        "Tên học phần": "project iii",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4043E",
+        "Tên học phần": "big data storage and processing",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4063E",
+        "Tên học phần": "introduction to business analytics",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4868E",
+        "Tên học phần": "web mining",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT4033E",
+        "Tên học phần": "mathematical modelling",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4353E",
+        "Tên học phần": "principles of enterprise data strategy & management",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4991E",
+        "Tên học phần": "internship",
+        "Thời lượng": "2(0-0-4-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "5",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4995E",
+        "Tên học phần": "thesis",
+        "Thời lượng": "6(0-0-12-12)",
+        "Số tín chỉ": "6",
+        "TC học phí": "15",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT4940",
+        "Tên học phần": "project 3",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PE2261",
+        "Tên học phần": "karatedo",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "QT1011F",
+        "Tên học phần": "internet",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "EM3434E",
+        "Tên học phần": "e-logistics",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ME2021E",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4132E",
+        "Tên học phần": "system program",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4262E",
+        "Tên học phần": "network security",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4152E",
+        "Tên học phần": "network software architecture",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4652E",
+        "Tên học phần": "internetworking",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4362E",
+        "Tên học phần": "knowledge engineering",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4212E",
+        "Tên học phần": "realtime system",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4542E",
+        "Tên học phần": "management of software development",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "IT5022E",
+        "Tên học phần": "graduation research 2",
+        "Thời lượng": "3(0-0-6-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "7.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "EE4364",
+        "Tên học phần": "dcs & scada",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT4125E",
+        "Tên học phần": "bachelor thesis",
+        "Thời lượng": "6(0-0-12-12)",
+        "Số tín chỉ": "6",
+        "TC học phí": "15",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "CH4516E",
+        "Tên học phần": "seminar",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "EM1322",
+        "Tên học phần": "academic writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "1TD265",
+        "Tên học phần": "applied cloud computing",
+        "Thời lượng": " ",
+        "Số tín chỉ": "6",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL330",
+        "Tên học phần": "functional programming i",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL242",
+        "Tên học phần": "advanced software design",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL610",
+        "Tên học phần": "software testing",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL350",
+        "Tên học phần": "e-commerce project",
+        "Thời lượng": " ",
+        "Số tín chỉ": "6",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL620",
+        "Tên học phần": "platform-spanning systems",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DT072",
+        "Tên học phần": "secure computer systems i",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DT340",
+        "Tên học phần": "degree project c in computer science",
+        "Thời lượng": " ",
+        "Số tín chỉ": "8",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL340",
+        "Tên học phần": "artificial intelligence",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DT063",
+        "Tên học phần": "real time systems i",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL360",
+        "Tên học phần": "data mining i",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DL450",
+        "Tên học phần": "advanced functional programming",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "1DT075",
+        "Tên học phần": "cryptology",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "FL1105",
+        "Tên học phần": "life 1",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FL1106",
+        "Tên học phần": "life 2",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FL1107",
+        "Tên học phần": "life 3",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "FL1108",
+        "Tên học phần": "life 4",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "0",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "ME2021Q",
+        "Tên học phần": "technical writing and presentation",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT0001U",
+        "Tên học phần": "real time systems",
+        "Thời lượng": " ",
+        "Số tín chỉ": "6",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "IT0002U",
+        "Tên học phần": "computer-assisted image analysis i",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "IT0003U",
+        "Tên học phần": "programming embedded systems",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "IT0005U",
+        "Tên học phần": "wireless communication and networked embedded systems",
+        "Thời lượng": " ",
+        "Số tín chỉ": "6",
+        "TC học phí": "0",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "ME3209E",
+        "Tên học phần": "robotics",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "EE4364E",
+        "Tên học phần": "dcs & scada",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MS5304",
+        "Tên học phần": "polyme y sinh",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL2100",
+        "Tên học phần": "toeic nc1",
+        "Thời lượng": "4(3-3-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL2101",
+        "Tên học phần": "toeic nc2",
+        "Thời lượng": "4(3-3-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL2102",
+        "Tên học phần": "toeic nc3",
+        "Thời lượng": "4(3-3-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL2103",
+        "Tên học phần": "toeic nc4",
+        "Thời lượng": "4(3-3-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "TH0000",
+        "Tên học phần": "t",
+        "Thời lượng": " ",
+        "Số tín chỉ": "0",
+        "TC học phí": "0",
+        "Trọng số": " "
+    },
+    {
+        "Mã học phần": "BF5762",
+        "Tên học phần": "proteomics",
+        "Thời lượng": "2(2-0-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "2",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BF4728E",
+        "Tên học phần": "vaccin",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "BIT3910",
+        "Tên học phần": "project 1",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT5030E",
+        "Tên học phần": "graduation research 3",
+        "Thời lượng": "3(0-0-6-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "7.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT5120E",
+        "Tên học phần": "thesis",
+        "Thời lượng": "9(0-0-18-18)",
+        "Số tín chỉ": "9",
+        "TC học phí": "22.5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "BIT3920",
+        "Tên học phần": "project 2",
+        "Thời lượng": "3(0-0-6-12)",
+        "Số tín chỉ": "3",
+        "TC học phí": "6",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "PE2151",
+        "Tên học phần": "erobic",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "PE2251",
+        "Tên học phần": "taekwondo 1",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "PE2252",
+        "Tên học phần": "taekwondo 2",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "PE2253",
+        "Tên học phần": "taekwondo 3",
+        "Thời lượng": "0(0-2-0-2)",
+        "Số tín chỉ": "0",
+        "TC học phí": "1.5",
+        "Trọng số": "1"
+    },
+    {
+        "Mã học phần": "MGT3375",
+        "Tên học phần": "global hr management",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4460",
+        "Tên học phần": "project management",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4471",
+        "Tên học phần": "leadership and change",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4472",
+        "Tên học phần": "organizational behaviour",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4476",
+        "Tên học phần": "strategic management",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4478",
+        "Tên học phần": "global management",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MGT4479",
+        "Tên học phần": "management seminar",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MKT4462",
+        "Tên học phần": "consumer behaviour",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MKT4468",
+        "Tên học phần": "global marketing",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MTH2215",
+        "Tên học phần": "applied discrete mathematics",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "MUS1131",
+        "Tên học phần": "music appreciation",
+        "Thời lượng": " ",
+        "Số tín chỉ": "2",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "QM3345",
+        "Tên học phần": "operation management",
+        "Thời lượng": " ",
+        "Số tín chỉ": "3",
+        "TC học phí": " ",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "FL1114",
+        "Tên học phần": "grammar for writing",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1115",
+        "Tên học phần": "english communication skills 1",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1116",
+        "Tên học phần": "skills integration 1",
+        "Thời lượng": "4(3-3-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "6",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1117",
+        "Tên học phần": "foundation writing for ielts",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1118",
+        "Tên học phần": "english communication skills 2",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1119",
+        "Tên học phần": "skills integration 2",
+        "Thời lượng": "4(3-2-0-8)",
+        "Số tín chỉ": "0",
+        "TC học phí": "5",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1120",
+        "Tên học phần": "ielts listening 1",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1121",
+        "Tên học phần": "ielts speaking 1",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1122",
+        "Tên học phần": "ielts reading 1",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1123",
+        "Tên học phần": "ielts writing 1",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1124",
+        "Tên học phần": "ielts listening 2",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1125",
+        "Tên học phần": "ielts speaking 2",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1126",
+        "Tên học phần": "ielts reading 2",
+        "Thời lượng": "1(1-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "2",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "FL1127",
+        "Tên học phần": "ielts writing 2",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "0",
+        "TC học phí": "3",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "ME5608",
+        "Tên học phần": "fms&cim",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME5609",
+        "Tên học phần": "micro robot",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "ME5606",
+        "Tên học phần": "fpgas",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    },
+    {
+        "Mã học phần": "IT3191E",
+        "Tên học phần": "machine learning and data mining",
+        "Thời lượng": "3(3-1-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.6"
+    },
+    {
+        "Mã học phần": "MI1124E",
+        "Tên học phần": "caculus 2",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "MI1134E",
+        "Tên học phần": "derivative equations and series",
+        "Thời lượng": "3(2-2-0-6)",
+        "Số tín chỉ": "3",
+        "TC học phí": "4",
+        "Trọng số": "0.5"
+    },
+    {
+        "Mã học phần": "IT3283E",
+        "Tên học phần": "computer architecture",
+        "Thời lượng": "2(2-1-0-4)",
+        "Số tín chỉ": "2",
+        "TC học phí": "3",
+        "Trọng số": "0.7"
+    }
+]
