@@ -1,31 +1,31 @@
 package cs3332.project.cs3332.model;
 
+import jakarta.persistence.*;
+import java.util.Set;
+import java.util.Collection;
+import java.util.Arrays;
+import java.util.stream.Collectors;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-
-import jakarta.persistence.*;
-import java.util.Collection;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.Arrays;
 
 @Entity
 @Table(name = "users")
-public class User implements UserDetails {
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class User implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "username")
+    @Column(name = "username", unique = true, nullable = false)
     private String username;
 
-    @Column(name = "password")
+    @Column(name = "password", nullable = false)
     private String password;
 
-    @Column(name = "roles")
+    @Column(name = "roles", nullable = false)
     private String roles;
 
     public User() {
@@ -100,3 +100,4 @@ public class User implements UserDetails {
         return true;
     }
 }
+

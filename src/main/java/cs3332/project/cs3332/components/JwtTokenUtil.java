@@ -18,6 +18,9 @@ public class JwtTokenUtil {
 
     private Key secretKey;
 
+    private final long accessTokenValidity = 1000 * 60 * 15; // 15 minutes
+    private final long refreshTokenValidity = 1000 * 60 * 60 * 24 * 7; // 7 days
+
     @PostConstruct
     public void init() {
         secretKey = Keys.secretKeyFor(io.jsonwebtoken.SignatureAlgorithm.HS256); // Auto-generate secret key
@@ -39,26 +42,35 @@ public class JwtTokenUtil {
         return claimsResolver.apply(claims);
     }
 
+    // Extract all claims from token
     private Claims extractAllClaims(String token) {
         return Jwts.parserBuilder().setSigningKey(secretKey).build().parseClaimsJws(token).getBody();
     }
 
-    private Boolean isTokenExpired(String token) {
+    // Check if token is expired
+    public Boolean isTokenExpired(String token) {
         return extractExpiration(token).before(new Date());
     }
 
-    // Generate token for user
-    public String generateToken(UserDetails userDetails) {
+    // Generate Access Token
+    public String generateAccessToken(UserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
-        return createToken(claims, userDetails.getUsername());
+        return createToken(claims, userDetails.getUsername(), accessTokenValidity);
     }
 
-    private String createToken(Map<String, Object> claims, String subject) {
+    // Generate Refresh Token
+    public String generateRefreshToken(UserDetails userDetails) {
+        Map<String, Object> claims = new HashMap<>();
+        return createToken(claims, userDetails.getUsername(), refreshTokenValidity);
+    }
+
+    // Create token
+    private String createToken(Map<String, Object> claims, String subject, long validity) {
         return Jwts.builder()
                    .setClaims(claims)
                    .setSubject(subject)
                    .setIssuedAt(new Date(System.currentTimeMillis()))
-                   .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60 * 10))
+                   .setExpiration(new Date(System.currentTimeMillis() + validity))
                    .signWith(secretKey)
                    .compact();
     }
