@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.access.prepost.PreAuthorize;
 
 import cs3332.project.cs3332.model.Class;
 import cs3332.project.cs3332.model.ResponseObject;
@@ -31,6 +32,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/show-all
     // Lấy danh sách tất cả các lớp học
     @GetMapping("/show-all")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")
     public ResponseEntity<ResponseObject> showAllClasses() {
         List<Class> classes = classService.showAllClasses();
         if (classes.isEmpty()) {
@@ -44,6 +46,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/open
     // Lấy danh sách tất cả các lớp học đang mở
     @GetMapping("/open")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")
     public ResponseEntity<ResponseObject> showAllClassesIsOpen() {
         List<Class> openClasses = classService.showAllClassesIsOpen();
         if (openClasses.isEmpty()) {
@@ -57,6 +60,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/CS123
     // Tìm kiếm một lớp học theo classCode
     @GetMapping("/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")
     public ResponseEntity<ResponseObject> searchClass(@PathVariable String classCode) {
         Class foundClass = classService.getClassByClassCode(classCode);
         if (foundClass != null) {
@@ -70,6 +74,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/create
     // Tạo mới một lớp học
     @PostMapping("/create")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> createClass(@RequestBody Class newClass) {
         try {
             Class createdClass = classService.createClass(newClass);
@@ -89,6 +94,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/open/CS123?endDate=2022-12-31
     // Mở lớp học
     @PutMapping("/open/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> openClass(
             @PathVariable String classCode,
             @RequestParam("endDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate endDate) {
@@ -121,6 +127,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/max-students/CS123?maxStudents=50
     // Đặt số lượng sinh viên tối đa cho lớp học
     @PutMapping("/max-students/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> setMaxStudents(
             @PathVariable String classCode,
             @RequestParam int maxStudents) {
@@ -136,6 +143,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/edit/CS123
     // Chỉnh sửa thông tin lớp học
     @PutMapping("/edit/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> editClass(
             @PathVariable String classCode,
             @RequestBody Class updatedClass) {
@@ -166,6 +174,7 @@ public class ClassController {
     // http://localhost:8080/api/classes/delete/CS123
     // Xóa lớp học
     @DeleteMapping("/delete/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteClass(@PathVariable String classCode) {
         if (classService.deleteClass(classCode)) {
             return ResponseEntity.status(HttpStatus.OK)

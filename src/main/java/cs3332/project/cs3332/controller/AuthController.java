@@ -1,6 +1,7 @@
 package cs3332.project.cs3332.controller;
 
 import cs3332.project.cs3332.model.Admin;
+import cs3332.project.cs3332.model.ResponseObject;
 import cs3332.project.cs3332.model.Student;
 import cs3332.project.cs3332.components.JwtTokenUtil;
 import cs3332.project.cs3332.repository.UserRepository;
@@ -38,7 +39,7 @@ public class AuthController {
 
     // Đăng nhập và nhận access token + refresh token
     @PostMapping("/login")
-    public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthRequest authRequest) throws Exception {
+    public ResponseEntity<ResponseObject> createAuthenticationToken(@RequestBody AuthRequest authRequest) throws Exception {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
 
@@ -50,15 +51,15 @@ public class AuthController {
         tokens.put("accessToken", accessToken);
         tokens.put("refreshToken", refreshToken);
 
-        return ResponseEntity.ok(tokens);
+        return ResponseEntity.ok(new ResponseObject("success", "Login successful", tokens));
     }
 
     // Chỉ admin mới có quyền tạo tài khoản sinh viên
     @PostMapping("/register/student")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<?> registerStudent(@RequestBody RegisterStudentRequest registerRequest) {
+    public ResponseEntity<ResponseObject> registerStudent(@RequestBody RegisterStudentRequest registerRequest) {
         if (userRepository.existsByUsername(registerRequest.getUsername())) {
-            return ResponseEntity.badRequest().body("Username is already taken!");
+            return ResponseEntity.badRequest().body(new ResponseObject("error", "Username is already taken!", null));
         }
 
         Student newStudent = new Student(
@@ -71,15 +72,15 @@ public class AuthController {
         );
 
         userRepository.save(newStudent);
-        return ResponseEntity.ok("Student registered successfully!");
+        return ResponseEntity.ok(new ResponseObject("success", "Student registered successfully!", newStudent));
     }
 
     // Tạo tài khoản admin (Chỉ dành cho Admin)
     @PostMapping("/register/admin")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<?> registerAdmin(@RequestBody RegisterAdminRequest registerRequest) {
+    public ResponseEntity<ResponseObject> registerAdmin(@RequestBody RegisterAdminRequest registerRequest) {
         if (userRepository.existsByUsername(registerRequest.getUsername())) {
-            return ResponseEntity.badRequest().body("Username is already taken!");
+            return ResponseEntity.badRequest().body(new ResponseObject("error", "Username is already taken!", null));
         }
 
         Admin newAdmin = new Admin(
@@ -90,16 +91,16 @@ public class AuthController {
         );
 
         userRepository.save(newAdmin);
-        return ResponseEntity.ok("Admin registered successfully!");
+        return ResponseEntity.ok(new ResponseObject("success", "Admin registered successfully!", newAdmin));
     }
 
     // Refresh token
     @PostMapping("/refresh-token")
-    public ResponseEntity<?> refreshToken(@RequestBody RefreshTokenRequest request) {
+    public ResponseEntity<ResponseObject> refreshToken(@RequestBody RefreshTokenRequest request) {
         String refreshToken = request.getRefreshToken();
 
         if (jwtTokenUtil.isTokenExpired(refreshToken)) {
-            return ResponseEntity.status(403).body("Refresh token is expired");
+            return ResponseEntity.status(403).body(new ResponseObject("error", "Refresh token is expired", null));
         }
 
         String username = jwtTokenUtil.extractUsername(refreshToken);
@@ -110,10 +111,9 @@ public class AuthController {
         tokens.put("accessToken", newAccessToken);
         tokens.put("refreshToken", refreshToken);
 
-        return ResponseEntity.ok(tokens);
+        return ResponseEntity.ok(new ResponseObject("success", "Token refreshed successfully", tokens));
     }
 }
-
 
 class AuthRequest {
     private String username;
