@@ -31,4 +31,8 @@ public class AdminService {
     public List<Student> viewAllStudents() {
         return studentRepository.findAll();
     }
+
+    public void deleteAdminByUsername(String username) {
+        adminRepository.deleteByUsername(username);
+    }
 }

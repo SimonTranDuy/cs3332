@@ -37,4 +37,9 @@ public class StudentService {
             throw new IllegalArgumentException("Old password is incorrect");
         }
     }
+
+    public void deleteStudentByUsername(String username) {
+        studentRepository.deleteByUsername(username);
+    }
+
 }

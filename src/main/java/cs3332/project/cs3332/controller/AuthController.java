@@ -65,7 +65,6 @@ public class AuthController {
         Student newStudent = new Student(
                 registerRequest.getUsername(),
                 passwordEncoder.encode(registerRequest.getPassword()),
-                registerRequest.getStudentId(),
                 registerRequest.getName(),
                 registerRequest.getProgram(),
                 registerRequest.getMaxCredits()
@@ -86,7 +85,6 @@ public class AuthController {
         Admin newAdmin = new Admin(
                 registerRequest.getUsername(),
                 passwordEncoder.encode(registerRequest.getPassword()),
-                registerRequest.getAdminId(),
                 registerRequest.getDepartment()
         );
 

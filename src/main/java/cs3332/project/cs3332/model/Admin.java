@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 import java.util.Set;
+import java.util.UUID;
+import jakarta.persistence.PrePersist;
 
 @Entity
 @Table(name = "admins")
@@ -19,10 +21,14 @@ public class Admin extends User {
         super();
     }
 
-    public Admin(String username, String password, String adminId, String department) {
+    public Admin(String username, String password, String department) {
         super(username, password, Set.of("ROLE_ADMIN"));
-        this.adminId = adminId;
         this.department = department;
+    }
+
+    @PrePersist
+    protected void onCreate() {
+        this.adminId = UUID.randomUUID().toString(); // Generate UUID for adminId
     }
 
     public String getAdminId() {

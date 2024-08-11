@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 import java.util.Set;
+import java.util.UUID;
+import jakarta.persistence.PrePersist;
 
 @Entity
 @Table(name = "students")
@@ -25,12 +27,16 @@ public class Student extends User {
         super();
     }
 
-    public Student(String username, String password, String studentId, String name, String program, int maxCredits) {
+    public Student(String username, String password, String name, String program, int maxCredits) {
         super(username, password, Set.of("ROLE_STUDENT"));
-        this.studentId = studentId;
         this.name = name;
         this.program = program;
         this.maxCredits = maxCredits;
+    }
+
+    @PrePersist
+    protected void onCreate() {
+        this.studentId = UUID.randomUUID().toString(); // Generate UUID for studentId
     }
 
     public String getStudentId() {

@@ -51,8 +51,28 @@ public class UserController {
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> viewAllStudents() {
         List<Student> students = adminService.viewAllStudents();
-        return ResponseEntity.ok(new ResponseObject("success", "All students' information retrieved successfully", students));
+        return ResponseEntity
+                .ok(new ResponseObject("success", "All students' information retrieved successfully", students));
     }
+
+    // Delete a student by username (only Admin can do this)
+    @DeleteMapping("/admin/delete-student")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ResponseEntity<ResponseObject> deleteStudent(@RequestParam String username) {
+        studentService.deleteStudentByUsername(username);
+        ResponseObject response = new ResponseObject("success", "Student deleted successfully", null);
+        return ResponseEntity.ok(response);
+    }
+
+    // Delete an admin by username (only Admin can do this)
+    @DeleteMapping("/admin/delete-admin")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ResponseEntity<ResponseObject> deleteAdmin(@RequestParam String username) {
+        adminService.deleteAdminByUsername(username);
+        ResponseObject response = new ResponseObject("success", "Admin deleted successfully", null);
+        return ResponseEntity.ok(response);
+    }
+
 }
 
 class ChangePasswordRequest {
