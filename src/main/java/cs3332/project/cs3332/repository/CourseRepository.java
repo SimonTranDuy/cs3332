@@ -1,21 +1,14 @@
 package cs3332.project.cs3332.repository;
 
-import java.util.Optional;
-
+import cs3332.project.cs3332.model.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import java.util.Optional;
 
-import cs3332.project.cs3332.model.Course;
+import java.util.List;
 
 @Repository
 public interface CourseRepository extends JpaRepository<Course, String> {
-
-    // Tìm kiếm khóa học theo mã khóa học
+    List<Course> findByNameContainingIgnoreCase(String name);
     Optional<Course> findByCourseCode(String courseCode);
-
-    // Kiểm tra sự tồn tại của khóa học theo mã khóa học
-    boolean existsByCourseCode(String courseCode);
-
-    // Xóa khóa học theo mã khóa học
-    void deleteByCourseCode(String courseCode);
 }

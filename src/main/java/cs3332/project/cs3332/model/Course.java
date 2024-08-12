@@ -1,6 +1,5 @@
 package cs3332.project.cs3332.model;
 
-// import cs3332.project.cs3332.dto.CourseDTO;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -23,7 +22,7 @@ public class Course {
     private int credits;
 
     @Column(name = "tuition_fee_credits")
-    private int tuitionFeeCredits;
+    private double tuitionFeeCredits;
 
     @Column(name = "weight")
     private double weight;
@@ -63,11 +62,11 @@ public class Course {
         this.credits = credits;
     }
 
-    public int getTuitionFeeCredits() {
+    public double getTuitionFeeCredits() {
         return tuitionFeeCredits;
     }
 
-    public void setTuitionFeeCredits(int tuitionFeeCredits) {
+    public void setTuitionFeeCredits(double tuitionFeeCredits) {
         this.tuitionFeeCredits = tuitionFeeCredits;
     }
 
@@ -95,7 +94,7 @@ public class Course {
     public Course() {
     }
 
-    public Course(String courseCode, String name, String duration, int credits, int tuitionFeeCredits, double weight) {
+    public Course(String courseCode, String name, String duration, int credits, double tuitionFeeCredits, double weight) {
         this.courseCode = courseCode;
         this.name = name;
         this.duration = duration;

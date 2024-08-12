@@ -1,12 +1,11 @@
 package cs3332.project.cs3332.model;
 
 import java.time.LocalDate;
-import java.util.List;
 
-import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
-import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
@@ -30,19 +29,23 @@ public class Class {
     @Column(name = "current_student_count")
     private int currentStudentCount;
 
-    @Column(name = "is_open")
-    private boolean isOpen;
-
     @Column(name = "start_date")
     private LocalDate startDate;
 
     @Column(name = "end_date")
     private LocalDate endDate;
 
-    @ElementCollection
-    @CollectionTable(name = "class_days", joinColumns = @JoinColumn(name = "class_code"))
-    @Column(name = "class_day")
-    private List<String> classDays;
+    @Column(name = "registration_deadline")
+    private LocalDate registrationDeadline;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "day_of_week", nullable = false)
+    private DayOfWeek dayOfWeek; // Ngày học trong tuần
+
+    // Enum DayOfWeek
+    public enum DayOfWeek {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
 
     // Getters and setters
     public String getClassCode() {
@@ -77,14 +80,6 @@ public class Class {
         this.currentStudentCount = currentStudentCount;
     }
 
-    public boolean isOpen() {
-        return isOpen;
-    }
-
-    public void setIsOpen(boolean isOpen) {
-        this.isOpen = isOpen;
-    }
-
     public LocalDate getStartDate() {
         return startDate;
     }
@@ -101,26 +96,34 @@ public class Class {
         this.endDate = endDate;
     }
 
-    public List<String> getClassDays() {
-        return classDays;
+    public LocalDate getRegistrationDeadline() {
+        return registrationDeadline;
     }
 
-    public void setClassDays(List<String> classDays) {
-        this.classDays = classDays;
+    public void setRegistrationDeadline(LocalDate registrationDeadline) {
+        this.registrationDeadline = registrationDeadline;
+    }
+
+    public DayOfWeek getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
     }
 
     public Class() {
     }
 
-    public Class(String classCode, Course course, int maxStudents, int currentStudentCount, boolean isOpen, LocalDate startDate, LocalDate endDate, List<String> classDays) {
+    public Class(String classCode, Course course, int maxStudents, int currentStudentCount, LocalDate startDate, LocalDate endDate, LocalDate registrationDeadline, DayOfWeek dayOfWeek) {
         this.classCode = classCode;
         this.course = course;
         this.maxStudents = maxStudents;
         this.currentStudentCount = currentStudentCount;
-        this.isOpen = isOpen;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.classDays = classDays;
+        this.registrationDeadline = registrationDeadline;
+        this.dayOfWeek = dayOfWeek;
     }
 
     @Override
@@ -130,10 +133,10 @@ public class Class {
                 ", course=" + course +
                 ", maxStudents=" + maxStudents +
                 ", currentStudentCount=" + currentStudentCount +
-                ", isOpen=" + isOpen +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
-                ", classDays=" + classDays +
+                ", registrationDeadline=" + registrationDeadline +
+                ", dayOfWeek=" + dayOfWeek +
                 '}';
     }
 }

@@ -1,0 +1,2514 @@
+[
+    {
+        "course_code": "FLE1204",
+        "name": "language communication skills 2",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE1205",
+        "name": "dealing with texts 2",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE1207",
+        "name": "professional skills 1",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3072E",
+        "name": "operating systems",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BFL5091",
+        "name": "esp project",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "7.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL0400",
+        "name": "toeic 400",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "FL0500",
+        "name": "toeic 500",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "IT3910",
+        "name": "project i",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3920",
+        "name": "project ii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3930",
+        "name": "project ii",
+        "duration": "2(0-0-4-8)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "PE2015",
+        "name": "aerobic i",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "PE2025",
+        "name": "aerobic ii",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "MS3227",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "EE4312",
+        "name": "robot",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FLE3101",
+        "name": "english for professional purposes 2",
+        "duration": "4(3-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "PH4050",
+        "name": "laser",
+        "duration": "2(2-1-0.5-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PH4530",
+        "name": "cad and cam",
+        "duration": "3(3-0-2-6)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PH1110E",
+        "name": "basic physics",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4825",
+        "name": "robot",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "HE4031",
+        "name": "tua bin",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "BF4160",
+        "name": "cn enzym",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.8"
+    },
+    {
+        "course_code": "BF4410",
+        "name": "cn enzym",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BF4530",
+        "name": "cn protein",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BF4590",
+        "name": "cn axit amin",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.8"
+    },
+    {
+        "course_code": "BF4620",
+        "name": "cn vacxin",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FL1102",
+        "name": "toeic ii",
+        "duration": "0(0-6-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3901",
+        "name": "fe training course",
+        "duration": " ",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "HE3xxx",
+        "name": "chdcvchmtlt",
+        "duration": "x",
+        "credits": "3",
+        "tuition_fee_credits": "5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3210",
+        "name": "c programming language",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI1012",
+        "name": "math i",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI1022",
+        "name": "math ii",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PH1018",
+        "name": "physics i",
+        "duration": "4(4-0-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3312E",
+        "name": "data structures & algorithms",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT3230E",
+        "name": "data structures and algorithms basic lab",
+        "duration": "2(0-4-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "ET2015",
+        "name": "electronics",
+        "duration": "4(3-1-1-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI1032",
+        "name": "math iii",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PH1028",
+        "name": "physics ii",
+        "duration": "4(3-1-1-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME4158",
+        "name": "robotics",
+        "duration": "3(3-1-0.5-6)",
+        "credits": "3",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3022E",
+        "name": "discrete math",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3240E",
+        "name": "data structures and algorithms advanced lab",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3250E",
+        "name": "computer ethics",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3260E",
+        "name": "logic circuit",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3270E",
+        "name": "logic circuit lab",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI1042",
+        "name": "math iv",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "MI2022",
+        "name": "probability theory",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FLE1101",
+        "name": "language communication skills 1",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE1102",
+        "name": "dealing with texts 1",
+        "duration": "4(2-2-2-8)",
+        "credits": "4",
+        "tuition_fee_credits": "7",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE1103",
+        "name": "learning to learn 1",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4142E",
+        "name": "introduction to data science",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4242E",
+        "name": "machine learning and data mining",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4342E",
+        "name": "computer vision",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3150",
+        "name": "project i",
+        "duration": "2(0-0-4-8)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1144",
+        "name": "listening",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3290E",
+        "name": "database lab",
+        "duration": "2(0-4-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4182E",
+        "name": "compiler construction lab",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3280E",
+        "name": "assembly language and computer architecture lab",
+        "duration": "2(0-4-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4552E",
+        "name": "web programming",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4062E",
+        "name": "network programming",
+        "duration": "2(0-4-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4944E",
+        "name": "itss linux system and network management",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4945E",
+        "name": "itss software development",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4946E",
+        "name": "itss embedded linux",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4947E",
+        "name": "itss project management for embedded system",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3931",
+        "name": "project ii",
+        "duration": "2(0-0-4-8)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3932",
+        "name": "project ii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3940",
+        "name": "project iii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3942",
+        "name": "project iii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME3209",
+        "name": "robotics",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3082E",
+        "name": "computer network",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3292E",
+        "name": "database",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3282E",
+        "name": "computer architecture",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "TEX2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT2030",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "EV2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "BF2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "MSE2024",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3943",
+        "name": "project iii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ED3340",
+        "name": "e-learning",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ED4090",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ART1133",
+        "name": "visual art",
+        "duration": " ",
+        "credits": "2",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BUS3320",
+        "name": "innovative practices & thought",
+        "duration": " ",
+        "credits": "1",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BUS3382",
+        "name": "business communication",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BUS4474",
+        "name": "business & society",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BUS4480",
+        "name": "business seminar",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS2250",
+        "name": "computer science 1",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS2255",
+        "name": "computer science 2",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3310",
+        "name": "foundation of computer science",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3323",
+        "name": "data structures",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3329",
+        "name": "analysis of algorithm",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3331",
+        "name": "fundamentals of artificial intelligence",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3332",
+        "name": "software engineering 1",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3360",
+        "name": "concepts of objective -oriented program",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3365",
+        "name": "introduction to computer organization and architecture",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3370",
+        "name": "nature of programming language",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS3372",
+        "name": "formal language and the theory of computation",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4420",
+        "name": "introduction to database system",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4443",
+        "name": "web based software development",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4445",
+        "name": "data communication and networking",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4447",
+        "name": "systems analysis and design",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4448",
+        "name": "operating system",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CS4451",
+        "name": "computer security",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ECO3351",
+        "name": "intermediate macroeconomics",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ECO3352",
+        "name": "intermediate microeconomics",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ECO3353",
+        "name": "money and banking",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ECO4451",
+        "name": "global trade",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FLE2215",
+        "name": "international studies 2",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE2212",
+        "name": "english for professional purposes 1",
+        "duration": "4(3-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE2213",
+        "name": "theory of translation and interpretation",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE3102",
+        "name": "translation and interpretation practice 1",
+        "duration": "4(3-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE3103",
+        "name": "language awareness",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE3205",
+        "name": "english for professional purposes 3",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE3206",
+        "name": "translation and interpretation practice 2",
+        "duration": "4(3-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "5",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE3207",
+        "name": "phonetics and phonology",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE4102",
+        "name": "translation and interpretation practice 3",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE4103",
+        "name": "english literature",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE4205",
+        "name": "work placement",
+        "duration": "4(0-0-8-16)",
+        "credits": "4",
+        "tuition_fee_credits": "10",
+        "weight": "1"
+    },
+    {
+        "course_code": "FLE4206",
+        "name": "graduation paper in english",
+        "duration": "8(0-0-16-32)",
+        "credits": "8",
+        "tuition_fee_credits": "20",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3402E",
+        "name": "web information system",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4042E",
+        "name": "artificial intelligence",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4442E",
+        "name": "human interface",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4612E",
+        "name": "distributed system",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4682E",
+        "name": "multimedia communication",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT5021E",
+        "name": "graduation research 1",
+        "duration": "3(0-0-6-6)",
+        "credits": "3",
+        "tuition_fee_credits": "7.5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME4102Q",
+        "name": "fms & cim",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "HE2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME2021",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI2030",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "PH2020",
+        "name": "technical writing and presentation",
+        "duration": "3(3-0-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "CH2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "EM2222",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ET2022",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "EE2023",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "TE2020",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "TE2020E",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "MI2020E",
+        "name": "probability and statistics",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3020E",
+        "name": "discrete math",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "MI3051E",
+        "name": "mathematical optimization",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MI3031E",
+        "name": "probability and statistics ii",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3160E",
+        "name": "introduction to artificial intelligence",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT3100E",
+        "name": "object-oriented programming",
+        "duration": "3(2-1-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3310E",
+        "name": "scientific methodologies for digital transformation",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3070E",
+        "name": "operating system",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3080E",
+        "name": "computer networks",
+        "duration": "3(3-0-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3910E",
+        "name": "project i",
+        "duration": "2(0-0-4-8)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3320E",
+        "name": "introduction to deep learning",
+        "duration": "2(2-1-0-6)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4772E",
+        "name": "natural language processing",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4343E",
+        "name": "computer vision",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4130E",
+        "name": "parallel and distributed programming",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "EM2322",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "EM2622",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "EM2522",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "EM2722",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FL1145",
+        "name": "speaking",
+        "duration": "2(1-3-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE2108",
+        "name": "language communication skills 3",
+        "duration": "4(2-2-0-8)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE2109",
+        "name": "dealing with texts 3",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FLE2110",
+        "name": "professional skills 2",
+        "duration": "4(2-2-0-6)",
+        "credits": "4",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FLE2111",
+        "name": "international studies 1",
+        "duration": "3(2-1-0-4)",
+        "credits": "3",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL0350",
+        "name": "toeic 350",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "ET2105E",
+        "name": "data structures and algorithms",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3420E",
+        "name": "electronics for information technology",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4110E",
+        "name": "scientific computing",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4172E",
+        "name": "signal processing",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4593E",
+        "name": "introduction to communication enginieering",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3170E",
+        "name": "applied algorithms",
+        "duration": "2(2-0-1-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3.5",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4015E",
+        "name": "introduction to information security",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT5023E",
+        "name": "graduation research 1",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT5024E",
+        "name": "graduation research 2",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4549E",
+        "name": "itss software development",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3323E",
+        "name": "compiler construction",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4409E",
+        "name": "web technologies and e- services",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4785E",
+        "name": "mobile programming",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4441E",
+        "name": "user interface and user experience",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4210E",
+        "name": "embedded systems",
+        "duration": "3(3-0-1-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4.5",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4735E",
+        "name": "iot and applications",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4651E",
+        "name": "ip network design and implementation",
+        "duration": "3(2-0-2-6)",
+        "credits": "3",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT5125E",
+        "name": "bachelor thesis",
+        "duration": "6(0-0-12-12)",
+        "credits": "6",
+        "tuition_fee_credits": "15",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT2140E",
+        "name": "electronics for information technology lab",
+        "duration": "2(0-4-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ENG1101",
+        "name": "english composition 1",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ENG1102",
+        "name": "english composition 2",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ENG2205",
+        "name": "world literature 1",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ENG2206",
+        "name": "world literature 2",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FIN3331",
+        "name": "managerial finance 1",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FIN3332",
+        "name": "managerial finance 2",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IS3310",
+        "name": "introduction to information system",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3910Q",
+        "name": "project i",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3920Q",
+        "name": "project ii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL1146",
+        "name": "reading",
+        "duration": "2(1-2-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1147",
+        "name": "writing",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ME3168Q",
+        "name": "robotics",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT3322E",
+        "name": "compiler construction",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4012E",
+        "name": "information security",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4082E",
+        "name": "software engineering",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4272E",
+        "name": "computer systems",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4312E",
+        "name": "data modeling",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4492E",
+        "name": "structured programming",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4592E",
+        "name": "information theory",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL1148",
+        "name": "foudation writing",
+        "duration": "2(1-2-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1149",
+        "name": "communication skills 2",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1150",
+        "name": "working with texts 2",
+        "duration": "2(1-2-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1141",
+        "name": "practical grammar for writing",
+        "duration": "3(1-4-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1142",
+        "name": "communication skills 1",
+        "duration": "3(1-4-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1143",
+        "name": "working with texts 1",
+        "duration": "3(1-4-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "MI1144E",
+        "name": "algebra",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "MI1114E",
+        "name": "caculus 1",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "CLE1311",
+        "name": "elementary english 1",
+        "duration": "(3-1-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE1312",
+        "name": "elementary english 2",
+        "duration": "(3-1-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE2311",
+        "name": "pre-intermediate english 1",
+        "duration": "(3-1-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE2312",
+        "name": "pre-intermediate english 2",
+        "duration": "(3-1-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE3401",
+        "name": "intermediate english 1",
+        "duration": "(4-0-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE3402",
+        "name": "intermediate english 2",
+        "duration": "(4-0-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "CLE4401",
+        "name": "ielts preparation 1",
+        "duration": "(4-0-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "EM1622",
+        "name": "academic writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "EM1422",
+        "name": "academic writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "EM1722",
+        "name": "academic writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "EM1522",
+        "name": "academic writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4023E",
+        "name": "data visualization",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT3930E",
+        "name": "project ii",
+        "duration": "2(0-0-4-8)",
+        "credits": "2",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3940E",
+        "name": "project iii",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4043E",
+        "name": "big data storage and processing",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4063E",
+        "name": "introduction to business analytics",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4868E",
+        "name": "web mining",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT4033E",
+        "name": "mathematical modelling",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4353E",
+        "name": "principles of enterprise data strategy & management",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4991E",
+        "name": "internship",
+        "duration": "2(0-0-4-4)",
+        "credits": "2",
+        "tuition_fee_credits": "5",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4995E",
+        "name": "thesis",
+        "duration": "6(0-0-12-12)",
+        "credits": "6",
+        "tuition_fee_credits": "15",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT4940",
+        "name": "project 3",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PE2261",
+        "name": "karatedo",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "QT1011F",
+        "name": "internet",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "EM3434E",
+        "name": "e-logistics",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ME2021E",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4132E",
+        "name": "system program",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4262E",
+        "name": "network security",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4152E",
+        "name": "network software architecture",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4652E",
+        "name": "internetworking",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4362E",
+        "name": "knowledge engineering",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4212E",
+        "name": "realtime system",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4542E",
+        "name": "management of software development",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "IT5022E",
+        "name": "graduation research 2",
+        "duration": "3(0-0-6-6)",
+        "credits": "3",
+        "tuition_fee_credits": "7.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "EE4364",
+        "name": "dcs & scada",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT4125E",
+        "name": "bachelor thesis",
+        "duration": "6(0-0-12-12)",
+        "credits": "6",
+        "tuition_fee_credits": "15",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "CH4516E",
+        "name": "seminar",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "EM1322",
+        "name": "academic writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "1TD265",
+        "name": "applied cloud computing",
+        "duration": " ",
+        "credits": "6",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL330",
+        "name": "functional programming i",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL242",
+        "name": "advanced software design",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL610",
+        "name": "software testing",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL350",
+        "name": "e-commerce project",
+        "duration": " ",
+        "credits": "6",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL620",
+        "name": "platform-spanning systems",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DT072",
+        "name": "secure computer systems i",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DT340",
+        "name": "degree project c in computer science",
+        "duration": " ",
+        "credits": "8",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL340",
+        "name": "artificial intelligence",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DT063",
+        "name": "real time systems i",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL360",
+        "name": "data mining i",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DL450",
+        "name": "advanced functional programming",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "1DT075",
+        "name": "cryptology",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "FL1105",
+        "name": "life 1",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FL1106",
+        "name": "life 2",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FL1107",
+        "name": "life 3",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "FL1108",
+        "name": "life 4",
+        "duration": "3(2-2-0-6)",
+        "credits": "0",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "ME2021Q",
+        "name": "technical writing and presentation",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT0001U",
+        "name": "real time systems",
+        "duration": " ",
+        "credits": "6",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "IT0002U",
+        "name": "computer-assisted image analysis i",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "IT0003U",
+        "name": "programming embedded systems",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "IT0005U",
+        "name": "wireless communication and networked embedded systems",
+        "duration": " ",
+        "credits": "6",
+        "tuition_fee_credits": "0",
+        "weight": "1"
+    },
+    {
+        "course_code": "ME3209E",
+        "name": "robotics",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "EE4364E",
+        "name": "dcs & scada",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MS5304",
+        "name": "polyme y sinh",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL2100",
+        "name": "toeic nc1",
+        "duration": "4(3-3-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL2101",
+        "name": "toeic nc2",
+        "duration": "4(3-3-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL2102",
+        "name": "toeic nc3",
+        "duration": "4(3-3-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL2103",
+        "name": "toeic nc4",
+        "duration": "4(3-3-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "TH0000",
+        "name": "t",
+        "duration": " ",
+        "credits": "0",
+        "tuition_fee_credits": "0",
+        "weight": " "
+    },
+    {
+        "course_code": "BF5762",
+        "name": "proteomics",
+        "duration": "2(2-0-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "2",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BF4728E",
+        "name": "vaccin",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "BIT3910",
+        "name": "project 1",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT5030E",
+        "name": "graduation research 3",
+        "duration": "3(0-0-6-6)",
+        "credits": "3",
+        "tuition_fee_credits": "7.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT5120E",
+        "name": "thesis",
+        "duration": "9(0-0-18-18)",
+        "credits": "9",
+        "tuition_fee_credits": "22.5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "BIT3920",
+        "name": "project 2",
+        "duration": "3(0-0-6-12)",
+        "credits": "3",
+        "tuition_fee_credits": "6",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "PE2151",
+        "name": "erobic",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "PE2251",
+        "name": "taekwondo 1",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "PE2252",
+        "name": "taekwondo 2",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "PE2253",
+        "name": "taekwondo 3",
+        "duration": "0(0-2-0-2)",
+        "credits": "0",
+        "tuition_fee_credits": "1.5",
+        "weight": "1"
+    },
+    {
+        "course_code": "MGT3375",
+        "name": "global hr management",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4460",
+        "name": "project management",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4471",
+        "name": "leadership and change",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4472",
+        "name": "organizational behaviour",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4476",
+        "name": "strategic management",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4478",
+        "name": "global management",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MGT4479",
+        "name": "management seminar",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MKT4462",
+        "name": "consumer behaviour",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MKT4468",
+        "name": "global marketing",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MTH2215",
+        "name": "applied discrete mathematics",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "MUS1131",
+        "name": "music appreciation",
+        "duration": " ",
+        "credits": "2",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "QM3345",
+        "name": "operation management",
+        "duration": " ",
+        "credits": "3",
+        "tuition_fee_credits": " ",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "FL1114",
+        "name": "grammar for writing",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1115",
+        "name": "english communication skills 1",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1116",
+        "name": "skills integration 1",
+        "duration": "4(3-3-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "6",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1117",
+        "name": "foundation writing for ielts",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1118",
+        "name": "english communication skills 2",
+        "duration": "2(2-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1119",
+        "name": "skills integration 2",
+        "duration": "4(3-2-0-8)",
+        "credits": "0",
+        "tuition_fee_credits": "5",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1120",
+        "name": "ielts listening 1",
+        "duration": "2(2-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1121",
+        "name": "ielts speaking 1",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1122",
+        "name": "ielts reading 1",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1123",
+        "name": "ielts writing 1",
+        "duration": "2(2-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1124",
+        "name": "ielts listening 2",
+        "duration": "2(2-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1125",
+        "name": "ielts speaking 2",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1126",
+        "name": "ielts reading 2",
+        "duration": "1(1-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "2",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "FL1127",
+        "name": "ielts writing 2",
+        "duration": "2(2-1-0-4)",
+        "credits": "0",
+        "tuition_fee_credits": "3",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "ME5608",
+        "name": "fms&cim",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME5609",
+        "name": "micro robot",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "ME5606",
+        "name": "fpgas",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    },
+    {
+        "course_code": "IT3191E",
+        "name": "machine learning and data mining",
+        "duration": "3(3-1-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.6"
+    },
+    {
+        "course_code": "MI1124E",
+        "name": "caculus 2",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "MI1134E",
+        "name": "derivative equations and series",
+        "duration": "3(2-2-0-6)",
+        "credits": "3",
+        "tuition_fee_credits": "4",
+        "weight": "0.5"
+    },
+    {
+        "course_code": "IT3283E",
+        "name": "computer architecture",
+        "duration": "2(2-1-0-4)",
+        "credits": "2",
+        "tuition_fee_credits": "3",
+        "weight": "0.7"
+    }
+]
