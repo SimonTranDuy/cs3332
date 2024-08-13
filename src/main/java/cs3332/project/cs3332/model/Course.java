@@ -45,7 +45,6 @@ public class Course {
         this.name = name;
     }
 
-    
     public String getDuration() {
         return duration;
     }
@@ -94,7 +93,8 @@ public class Course {
     public Course() {
     }
 
-    public Course(String courseCode, String name, String duration, int credits, double tuitionFeeCredits, double weight) {
+    public Course(String courseCode, String name, String duration, int credits, double tuitionFeeCredits,
+            double weight) {
         this.courseCode = courseCode;
         this.name = name;
         this.duration = duration;
@@ -102,7 +102,5 @@ public class Course {
         this.tuitionFeeCredits = tuitionFeeCredits;
         this.weight = weight;
     }
-
-
 
 }

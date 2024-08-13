@@ -115,7 +115,8 @@ public class Class {
     public Class() {
     }
 
-    public Class(String classCode, Course course, int maxStudents, int currentStudentCount, LocalDate startDate, LocalDate endDate, LocalDate registrationDeadline, DayOfWeek dayOfWeek) {
+    public Class(String classCode, Course course, int maxStudents, int currentStudentCount, LocalDate startDate,
+            LocalDate endDate, LocalDate registrationDeadline, DayOfWeek dayOfWeek) {
         this.classCode = classCode;
         this.course = course;
         this.maxStudents = maxStudents;

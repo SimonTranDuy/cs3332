@@ -37,8 +37,8 @@ public class ClassController {
     @PutMapping("/update")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> updateClass(@RequestParam String courseCode,
-                                                      @RequestParam String classCode,
-                                                      @RequestBody Class updatedClass) {
+            @RequestParam String classCode,
+            @RequestBody Class updatedClass) {
         Optional<Class> updated = classService.updateClass(courseCode, classCode, updatedClass);
         if (updated.isPresent()) {
             return ResponseEntity.status(HttpStatus.OK)

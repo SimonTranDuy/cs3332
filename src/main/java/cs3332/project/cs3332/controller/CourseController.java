@@ -32,7 +32,8 @@ public class CourseController {
     // Sửa khóa học theo courseCode
     @PutMapping("/update/{courseCode}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<ResponseObject> updateCourse(@PathVariable String courseCode, @RequestBody Course updatedCourse) {
+    public ResponseEntity<ResponseObject> updateCourse(@PathVariable String courseCode,
+            @RequestBody Course updatedCourse) {
         Optional<Course> courseOptional = courseService.updateCourse(courseCode, updatedCourse);
         if (courseOptional.isPresent()) {
             return ResponseEntity.status(HttpStatus.OK)

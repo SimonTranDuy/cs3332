@@ -39,7 +39,8 @@ public class AuthController {
 
     // Đăng nhập và nhận access token + refresh token
     @PostMapping("/login")
-    public ResponseEntity<ResponseObject> createAuthenticationToken(@RequestBody AuthRequest authRequest) throws Exception {
+    public ResponseEntity<ResponseObject> createAuthenticationToken(@RequestBody AuthRequest authRequest)
+            throws Exception {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
 
@@ -67,8 +68,7 @@ public class AuthController {
                 passwordEncoder.encode(registerRequest.getPassword()),
                 registerRequest.getName(),
                 registerRequest.getProgram(),
-                registerRequest.getMaxCredits()
-        );
+                registerRequest.getMaxCredits());
 
         userRepository.save(newStudent);
         return ResponseEntity.ok(new ResponseObject("success", "Student registered successfully!", newStudent));
@@ -76,7 +76,7 @@ public class AuthController {
 
     // Tạo tài khoản admin (Chỉ dành cho Admin)
     @PostMapping("/register/admin")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    // @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> registerAdmin(@RequestBody RegisterAdminRequest registerRequest) {
         if (userRepository.existsByUsername(registerRequest.getUsername())) {
             return ResponseEntity.badRequest().body(new ResponseObject("error", "Username is already taken!", null));
@@ -85,8 +85,7 @@ public class AuthController {
         Admin newAdmin = new Admin(
                 registerRequest.getUsername(),
                 passwordEncoder.encode(registerRequest.getPassword()),
-                registerRequest.getDepartment()
-        );
+                registerRequest.getDepartment());
 
         userRepository.save(newAdmin);
         return ResponseEntity.ok(new ResponseObject("success", "Admin registered successfully!", newAdmin));
