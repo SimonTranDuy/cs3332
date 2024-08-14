@@ -12,14 +12,14 @@
 ## Deadline
 - **Project Completion Deadline:** 21/08/2024
 
-## Class Diagram (Tạm thời)
-![alt text](Diagram/classDiagram.png)
+## Class Diagram 
+![Diagram/svg-class.svg](Diagram/svg-class.svg)
 
-## Database Diagram (Tạm thời)
-![alt text](Diagram/databaseDiagram.png)
+## Database Diagram 
+![alt text](Diagram/svg-db.svg)
 
-## Security Diagram (Tạm thời)
-![alt text](Diagram/securityDiagram.png)
+## Security Diagram 
+![Diagram/svg-sec.svg](Diagram/svg-sec.svg)
 
 *Note:*
 - Chỉnh SecurityFilterChain trong SecurityConfig để giới hạn truy cập vào hàm
@@ -31,6 +31,3 @@ Ex:
     .requestMatchers("/admin/**").hasRole("ADMIN") // Chỉ cho phép role ADMIN truy cập vào các endpoint bắt đầu bằng /admin/
     
     .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN") // Cho phép cả role USER và ADMIN truy cập vào các endpoint bắt đầu bằng /user/
-
-- Thêm @PreAuthorize("hasRole('ADMIN')") vào mỗi method trong controller tương ứng để giới hạn quyền truy cập
-- Đổi secret key trong JwtTokenUtil
