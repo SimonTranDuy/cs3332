@@ -1,179 +1,189 @@
 package cs3332.project.cs3332.service;
 
+import cs3332.project.cs3332.model.*;
+import cs3332.project.cs3332.repository.ClassEnrollmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-
-import cs3332.project.cs3332.model.ClassEnrollment;
-import cs3332.project.cs3332.model.Student;
-import cs3332.project.cs3332.components.CookieUtil;
-import cs3332.project.cs3332.model.Class;
-import cs3332.project.cs3332.repository.ClassEnrollmentRepository;
 import cs3332.project.cs3332.repository.ClassRepository;
 import cs3332.project.cs3332.repository.StudentRepository;
-
 import java.time.LocalDate;
-import java.util.Base64;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import cs3332.project.cs3332.model.Class;
 
 @Service
 public class ClassEnrollmentService {
 
     @Autowired
-    private ClassRepository classRepository;
-
-    @Autowired
-    private ClassEnrollmentRepository enrollmentRepository;
+    private ClassEnrollmentRepository classEnrollmentRepository;
 
     @Autowired
     private StudentRepository studentRepository;
 
-    // Lấy danh sách lớp theo courseCode
-    public List<Class> getClassesByCourseCode(String courseCode) {
-        return classRepository.findByCourseCourseCode(courseCode);
+    @Autowired
+    private ClassRepository classRepository;
+
+    // Thêm lớp vào cart
+    public ClassEnrollment addToCart(String studentUsername, String classCode) throws Exception {
+        removePendingClassesAfterStartDate();
+    
+        Student student = studentRepository.findByUsername(studentUsername);
+        Class enrolledClass = classRepository.findByClassCode(classCode)
+                .orElseThrow(() -> new Exception("Class not found"));
+    
+        // Kiểm tra nếu ngày hiện tại đã vượt quá registrationDeadline
+        if (LocalDate.now().isAfter(enrolledClass.getRegistrationDeadline())) {
+            throw new Exception("You cannot add this class to the cart after the registration deadline.");
+        }
+    
+        // Kiểm tra nếu lớp học đã có trong giỏ hàng (trạng thái PENDING hoặc REGISTERED)
+        boolean alreadyAdded = classEnrollmentRepository.findByStudent(student).stream()
+                .anyMatch(enrollment -> enrollment.getEnrolledClass().getClassCode().equals(classCode) &&
+                        (enrollment.getStatus().equals("PENDING") || enrollment.getStatus().equals("REGISTERED")));
+    
+        if (alreadyAdded) {
+            throw new Exception("This class is already in your cart or has been registered.");
+        }
+    
+        // Kiểm tra nếu số tín chỉ hiện tại của sinh viên cộng với số tín chỉ của lớp mới vượt quá maxCredits
+        int currentCredits = classEnrollmentRepository.findByStudentAndStatus(student, "REGISTERED").stream()
+                .mapToInt(enrollment -> enrollment.getEnrolledClass().getCourse().getCredits())
+                .sum();
+    
+        int newClassCredits = enrolledClass.getCourse().getCredits();
+    
+        if (currentCredits + newClassCredits > student.getMaxCredits()) {
+            throw new Exception("You cannot register for this class. Maximum credits exceeded.");
+        }
+    
+        ClassEnrollment enrollment = new ClassEnrollment();
+        enrollment.setStudent(student);
+        enrollment.setEnrolledClass(enrolledClass);
+        enrollment.setEnrollmentDate(LocalDate.now());
+        enrollment.setStatus("PENDING");
+    
+        return classEnrollmentRepository.save(enrollment);
     }
 
-    // Thêm lớp học vào cookies (Lưu trữ trạng thái)
-    public void addClassToCookie(String classCode, String courseCode, HttpServletRequest request,
-            HttpServletResponse response) {
-        List<String> registrationList = CookieUtil.getRegistrationListFromCookie(request);
-        String combinedCode = classCode + ":" + courseCode;
-        String encodedValue = Base64.getEncoder().encodeToString(combinedCode.getBytes());
-
-        if (!registrationList.contains(encodedValue)) {
-            registrationList.add(encodedValue);
-
-            // Create ClassEnrollment with "Pending" state
-            ClassEnrollment enrollment = new ClassEnrollment();
-            enrollment.setState("Pending"); // Set state to "Pending"
-            enrollment.setEnrolledClass(
-                    classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
-                            .orElseThrow(() -> new RuntimeException("Class not found")));
-
-            CookieUtil.setRegistrationListCookie(registrationList, response);
+    // Xóa lớp khỏi cart
+    public void removeFromCart(String studentUsername, String classCode) throws Exception {
+        Student student = studentRepository.findByUsername(studentUsername);
+    
+        ClassEnrollment enrollment = classEnrollmentRepository.findByStudentAndStatus(student, "PENDING").stream()
+                .filter(e -> e.getEnrolledClass().getClassCode().equals(classCode))
+                .findFirst()
+                .orElseThrow(() -> new Exception("Class not found in cart."));
+    
+        // Kiểm tra nếu ngày hiện tại đã vượt quá registrationDeadline
+        if (LocalDate.now().isAfter(enrollment.getEnrolledClass().getRegistrationDeadline())) {
+            throw new Exception("You cannot remove this class from the cart after the registration deadline.");
         }
+    
+        classEnrollmentRepository.delete(enrollment);
     }
 
-    // Xóa lớp học khỏi cookies và cập nhật trạng thái về "Not Registered"
-    public void removeClassFromCookie(HttpServletRequest request, HttpServletResponse response, String classCode,
-            String courseCode) {
-        Integer studentId = (Integer) request.getSession().getAttribute("studentId");
-        if (studentId == null) {
-            throw new RuntimeException("Student ID not found in session.");
+    // Đăng kí lớp từ cart
+    public ClassEnrollment registerClass(String studentUsername, String classCode) throws Exception {
+        Student student = studentRepository.findByUsername(studentUsername);
+    
+        ClassEnrollment enrollment = classEnrollmentRepository.findByStudentAndStatus(student, "PENDING").stream()
+                .filter(e -> e.getEnrolledClass().getClassCode().equals(classCode))
+                .findFirst()
+                .orElseThrow(() -> new Exception("Class not found in cart"));
+    
+        // Kiểm tra nếu ngày hiện tại đã vượt quá registrationDeadline
+        if (LocalDate.now().isAfter(enrollment.getEnrolledClass().getRegistrationDeadline())) {
+            throw new Exception("You cannot register for this class after the registration deadline.");
         }
-
-        String combinedCode = classCode + ":" + courseCode;
-        String encodedValue = Base64.getEncoder().encodeToString(combinedCode.getBytes());
-
-        List<String> registrationList = CookieUtil.getRegistrationListFromCookie(request);
-        if (registrationList.remove(encodedValue)) { // Kiểm tra và xóa nếu tồn tại
-            // Cập nhật trạng thái về "Not Registered" trong cơ sở dữ liệu
-            Student student = studentRepository.findById(studentId)
-                    .orElseThrow(() -> new RuntimeException("Student not found"));
-
-            Class enrolledClass = classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
-                    .orElseThrow(() -> new RuntimeException("Class not found"));
-
-            ClassEnrollment enrollment = enrollmentRepository.findByStudentAndEnrolledClass(student, enrolledClass)
-                    .orElseThrow(() -> new RuntimeException("Enrollment not found"));
-
-            enrollment.setState("Not Registered"); // Đặt lại trạng thái về "Not Registered"
-            enrollmentRepository.save(enrollment);
-
-            CookieUtil.setRegistrationListCookie(registrationList, response);
-        } else {
-            throw new RuntimeException("Class not found in registration list");
-        }
+    
+        enrollment.setStatus("REGISTERED");
+        return classEnrollmentRepository.save(enrollment);
     }
 
-    // Đăng ký tất cả các lớp từ cookies
-    public void enrollAllClassesFromCookie(HttpServletRequest request, HttpServletResponse response,
-            String courseCode) {
-        Integer studentId = (Integer) request.getSession().getAttribute("studentId");
-        if (studentId == null) {
-            throw new RuntimeException("Student ID not found in session.");
+    // Hủy đăng kí lớp
+    public void dropClass(String studentUsername, String classCode) throws Exception {
+        Student student = studentRepository.findByUsername(studentUsername);
+    
+        // Tìm kiếm lớp học đã đăng ký (trạng thái REGISTERED)
+        ClassEnrollment enrollment = classEnrollmentRepository.findByStudentAndStatus(student, "REGISTERED").stream()
+            .filter(e -> e.getEnrolledClass().getClassCode().equals(classCode))
+            .findFirst()
+            .orElseThrow(() -> new Exception("You are not registered for this class."));
+    
+        // Kiểm tra nếu ngày hiện tại đã vượt qua registrationDeadline
+        if (LocalDate.now().isAfter(enrollment.getEnrolledClass().getRegistrationDeadline())) {
+            throw new Exception("You cannot drop this class after the registration deadline.");
         }
+    
+        // Hủy đăng ký lớp bằng cách xóa enrollment
+        classEnrollmentRepository.delete(enrollment);
+    }
 
-        // Tìm kiếm sinh viên theo ID
-        Student student = studentRepository.findById(studentId)
-                .orElseThrow(() -> new RuntimeException("Student not found"));
+    // Xem lịch sử đã đăng kí
+    public List<ClassEnrollment> viewEnrollmentHistory(String studentUsername) {
+        Student student = studentRepository.findByUsername(studentUsername);
+        return classEnrollmentRepository.findByStudentAndStatus(student, "PENDING");
+    }
 
-        List<String> registrationList = CookieUtil.getRegistrationListFromCookie(request);
+    public List<ClassEnrollment> registerAllClassesInCart(String studentUsername) throws Exception {
+        Student student = studentRepository.findByUsername(studentUsername);
 
-        // Tính tổng số tín chỉ hiện tại mà sinh viên đã đăng ký
-        int totalCurrentCredits = enrollmentRepository.findByStudent(student)
-                .stream()
+        // Lấy danh sách các lớp học trong giỏ hàng (có trạng thái PENDING)
+        List<ClassEnrollment> pendingEnrollments = classEnrollmentRepository.findByStudentAndStatus(student, "PENDING");
+
+        int currentCredits = classEnrollmentRepository.findByStudentAndStatus(student, "REGISTERED").stream()
                 .mapToInt(enrollment -> enrollment.getEnrolledClass().getCourse().getCredits())
                 .sum();
 
-        // Tính tổng số tín chỉ của các lớp học trong cookies
-        int totalNewCredits = 0;
-        for (String encodedClassCode : registrationList) {
-            String decodedClassCode = new String(Base64.getDecoder().decode(encodedClassCode));
-            String[] parts = decodedClassCode.split(":");
-            String classCode = parts[0];
-            String courseCodeFromCookie = parts[1];
+        List<ClassEnrollment> registeredEnrollments = new ArrayList<>();
+        List<String> errors = new ArrayList<>();
 
-            if (!courseCode.equals(courseCodeFromCookie)) {
-                continue;
+        for (ClassEnrollment enrollment : pendingEnrollments) {
+            Class enrolledClass = enrollment.getEnrolledClass();
+            int newClassCredits = enrolledClass.getCourse().getCredits();
+
+            // Kiểm tra nếu số tín chỉ vượt quá maxCredits
+            if (currentCredits + newClassCredits > student.getMaxCredits()) {
+                errors.add("Cannot register for class " + enrolledClass.getClassCode() + ": Maximum credits exceeded.");
+                continue; // Bỏ qua lớp này và tiếp tục với lớp khác
             }
 
-            Class enrolledClass = classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
-                    .orElseThrow(() -> new RuntimeException("Class not found"));
-            totalNewCredits += enrolledClass.getCourse().getCredits();
-        }
-
-        // Kiểm tra nếu tổng số tín chỉ vượt quá giới hạn
-        if (totalCurrentCredits + totalNewCredits > student.getMaxCredits()) {
-            throw new RuntimeException("You have exceeded the maximum credit limit.");
-        }
-
-        // Nếu không vượt quá giới hạn, tiếp tục đăng ký
-        for (String encodedClassCode : registrationList) {
-            String decodedClassCode = new String(Base64.getDecoder().decode(encodedClassCode));
-            String[] parts = decodedClassCode.split(":");
-            String classCode = parts[0];
-            String courseCodeFromCookie = parts[1];
-
-            if (!courseCode.equals(courseCodeFromCookie)) {
-                continue;
+            // Kiểm tra nếu ngày đăng ký đã vượt quá registrationDeadline
+            if (LocalDate.now().isAfter(enrollment.getEnrolledClass().getRegistrationDeadline())) {
+                errors.add("Cannot register for class " + enrolledClass.getClassCode()
+                        + ": Registration deadline has passed.");
+                continue; // Bỏ qua lớp này và tiếp tục với lớp khác
             }
 
-            Class enrolledClass = classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
-                    .orElseThrow(() -> new RuntimeException("Class not found"));
-
-            ClassEnrollment enrollment = new ClassEnrollment();
-            enrollment.setStudent(student); // Gán sinh viên vào enrollment
-            enrollment.setEnrolledClass(enrolledClass);
-            enrollment.setState("Enrollment Successfully"); // Cập nhật trạng thái
-            enrollment.setDayEnrollment(LocalDate.now());
-
-            enrollmentRepository.save(enrollment);
+            // Nếu mọi thứ đều hợp lệ, đăng ký lớp
+            enrollment.setStatus("REGISTERED");
+            registeredEnrollments.add(classEnrollmentRepository.save(enrollment));
+            currentCredits += newClassCredits; // Cập nhật số tín chỉ hiện tại sau khi đăng ký thành công
         }
 
-        // Xóa cookies sau khi đăng ký
-        CookieUtil.clearRegistrationListCookie(response);
+        // Nếu có lỗi, ném ra ngoại lệ chứa danh sách các lỗi
+        if (!errors.isEmpty()) {
+            throw new Exception(String.join(", ", errors));
+        }
+
+        return registeredEnrollments;
     }
 
-    // Xóa đăng kí
-    public void dropClass(Integer studentId, String classCode, String courseCode) {
-        Class enrolledClass = classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
-                .orElseThrow(() -> new RuntimeException("Class not found"));
+    public List<ClassEnrollment> viewCart(String studentUsername) {
+        removePendingClassesAfterStartDate();
 
-        ClassEnrollment enrollment = enrollmentRepository.findByStudentAndEnrolledClass(
-                studentRepository.findById(studentId)
-                        .orElseThrow(() -> new RuntimeException("Student not found")),
-                enrolledClass)
-                .orElseThrow(() -> new RuntimeException("Enrollment not found"));
-
-        enrollmentRepository.delete(enrollment); // Xóa đăng ký
+        Student student = studentRepository.findByUsername(studentUsername);
+        return classEnrollmentRepository.findByStudentAndStatus(student, "PENDING");
     }
 
-    // Lịch sử đăng kí
-    public List<ClassEnrollment> getEnrollmentHistory(Integer studentId) {
-        Student student = studentRepository.findById(studentId)
-                .orElseThrow(() -> new RuntimeException("Student not found"));
-        return enrollmentRepository.findByStudent(student);
+    public void removePendingClassesAfterStartDate() {
+        List<ClassEnrollment> pendingEnrollments = classEnrollmentRepository.findAll().stream()
+                .filter(enrollment -> enrollment.getStatus().equals("PENDING") &&
+                        enrollment.getEnrolledClass().getStartDate().isBefore(LocalDate.now()))
+                .collect(Collectors.toList());
+
+        classEnrollmentRepository.deleteAll(pendingEnrollments);
     }
 }

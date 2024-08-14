@@ -4,7 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 import java.util.Set;
-import java.util.UUID;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import jakarta.persistence.PrePersist;
 
 @Entity
@@ -17,6 +18,8 @@ public class Admin extends User {
     @Column(name = "department", nullable = false)
     private String department;
 
+    private static final AtomicInteger sequence = new AtomicInteger(100000);
+
     public Admin() {
         super();
     }
@@ -28,7 +31,8 @@ public class Admin extends User {
 
     @PrePersist
     protected void onCreate() {
-        this.adminId = UUID.randomUUID().toString(); // Generate UUID for adminId
+        int seq = sequence.getAndIncrement(); // Generate sequence number starting from 100000
+        this.adminId = String.format("Ad%06d", seq); // Format as AdXXXXXX
     }
 
     public String getAdminId() {

@@ -1,21 +1,15 @@
 package cs3332.project.cs3332.model;
 
 import java.time.LocalDate;
-import java.util.Date;
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "class_enrollment")
+@Table(name = "class_enrollments")
 public class ClassEnrollment {
+
     @Id
-    @Column(name = "id", unique = true, nullable = false)
-    private Integer id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "student_id", referencedColumnName = "student_id", nullable = false)
@@ -25,29 +19,18 @@ public class ClassEnrollment {
     @JoinColumn(name = "class_code", referencedColumnName = "class_code", nullable = false)
     private Class enrolledClass;
 
-    @Column(name = "day_enrollment")
-    private LocalDate dayEnrollment;
+    @Column(name = "enrollment_date")
+    private LocalDate enrollmentDate;
 
-    // them status dang String
-    @Column(name = "state")
-    private String state = "Not Registered"; // Default value is "Not Registered"
+    @Column(name = "status")
+    private String status; // "PENDING", "REGISTERED", "CANCELLED"
 
-    public ClassEnrollment() {
-    }
-
-    public ClassEnrollment(Integer id, Student student, Class enrolledClass, LocalDate dayEnrollment, String state) {
-        this.id = id;
-        this.student = student;
-        this.enrolledClass = enrolledClass;
-        this.dayEnrollment = dayEnrollment;
-        this.state = state;
-    }
-
-    public Integer getId() {
+    // Getters and Setters
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -67,26 +50,20 @@ public class ClassEnrollment {
         this.enrolledClass = enrolledClass;
     }
 
-    public LocalDate getDayEnrollment() {
-        return dayEnrollment;
+    public LocalDate getEnrollmentDate() {
+        return enrollmentDate;
     }
 
-    public void setDayEnrollment(LocalDate dayEnrollment) {
-        this.dayEnrollment = dayEnrollment;
+    public void setEnrollmentDate(LocalDate enrollmentDate) {
+        this.enrollmentDate = enrollmentDate;
     }
 
-    public String getState() {
-        return state;
+    public String getStatus() {
+        return status;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setStatus(String status) {
+        this.status = status;
     }
-
-    @Override
-    public String toString() {
-        return "ClassEnrollment [id=" + id + ", student=" + student + ", enrolledClass=" + enrolledClass
-                + ", dayEnrollment=" + dayEnrollment + ", state=" + state + "]";
-    }
-
 }
+

@@ -1,87 +1,118 @@
 package cs3332.project.cs3332.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.*;
-
-import cs3332.project.cs3332.components.CookieUtil;
 import cs3332.project.cs3332.model.ClassEnrollment;
 import cs3332.project.cs3332.model.ResponseObject;
 import cs3332.project.cs3332.service.ClassEnrollmentService;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.http.HttpStatus;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/enrollment")
+@RequestMapping("/api/class-enrollment")
 public class ClassEnrollmentController {
 
     @Autowired
-    private ClassEnrollmentService enrollmentService;
+    private ClassEnrollmentService classEnrollmentService;
 
-    // API để lấy danh sách lớp học theo courseCode
-    @GetMapping("/classes")
+    // Thêm lớp vào cart
+    @PostMapping("/cart/add")
     @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> getClassesByCourseCode(
-            @RequestParam String courseCode) {
-        List<cs3332.project.cs3332.model.Class> classes = enrollmentService.getClassesByCourseCode(courseCode);
-        return ResponseEntity.ok(new ResponseObject("success", "Classes retrieved successfully", classes));
+    public ResponseEntity<ResponseObject> addToCart(@RequestParam String classCode) {
+        try {
+            String username = getCurrentUsername();
+            ClassEnrollment enrollment = classEnrollmentService.addToCart(username, classCode);
+            return ResponseEntity.ok(new ResponseObject("success", "Class added to cart", enrollment));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(new ResponseObject("error", e.getMessage(), null));
+        }
     }
 
-    // Đưa vào cart
-    @PostMapping("/add-to-cart")
+    // Xóa lớp khỏi cart
+    @DeleteMapping("/cart/remove")
     @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> addToCart(@RequestParam String classCode, @RequestParam String courseCode,
-            HttpServletRequest request,
-            HttpServletResponse response) {
-        enrollmentService.addClassToCookie(classCode, courseCode, request, response);
-        return ResponseEntity.ok(new ResponseObject("success", "Class added to cart.", null));
+    public ResponseEntity<ResponseObject> removeFromCart(@RequestParam String classCode) {
+        try {
+            String username = getCurrentUsername();
+            classEnrollmentService.removeFromCart(username, classCode);
+            return ResponseEntity.ok(new ResponseObject("success", "Class removed from cart", null));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(new ResponseObject("error", e.getMessage(), null));
+        }
     }
 
-    // Xóa khỏi cart
-    @PostMapping("/remove-class")
+    // Đăng kí lớp từ cart
+    @PostMapping("/register")
     @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> removeClass(@RequestParam String classCode, @RequestParam String courseCode,
-            HttpServletRequest request, HttpServletResponse response) {
-        enrollmentService.removeClassFromCookie(request, response, classCode, courseCode);
-        return ResponseEntity.ok(new ResponseObject("success", "Class removed from cart.", null));
+    public ResponseEntity<ResponseObject> registerClass(@RequestParam String classCode) {
+        try {
+            String username = getCurrentUsername();
+            ClassEnrollment enrollment = classEnrollmentService.registerClass(username, classCode);
+            return ResponseEntity.ok(new ResponseObject("success", "Class registered successfully", enrollment));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(new ResponseObject("error", e.getMessage(), null));
+        }
     }
 
-    // API để xem danh sách lớp học trong cookie
+    @PostMapping("/cart/register-all")
+    @PreAuthorize("hasRole('ROLE_STUDENT')")
+    public ResponseEntity<ResponseObject> registerAllClassesInCart() {
+        try {
+            String username = getCurrentUsername();
+            List<ClassEnrollment> enrollments = classEnrollmentService.registerAllClassesInCart(username);
+            return ResponseEntity.ok(new ResponseObject("success", "All classes registered successfully", enrollments));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(new ResponseObject("error", e.getMessage(), null));
+        }
+    }
+
+    // Hủy đăng ký lớp học (Drop Class)
+    @DeleteMapping("/drop")
+    @PreAuthorize("hasRole('ROLE_STUDENT')")
+    public ResponseEntity<ResponseObject> dropClass(@RequestParam String classCode) {
+        try {
+            String username = getCurrentUsername();
+            classEnrollmentService.dropClass(username, classCode);
+            return ResponseEntity.ok(new ResponseObject("success", "Class dropped successfully", null));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ResponseObject("error", e.getMessage(), null));
+        }
+    }
+
+    // Xem lịch sử đã đăng kí
+    @GetMapping("/history")
+    @PreAuthorize("hasRole('ROLE_STUDENT')")
+    public ResponseEntity<ResponseObject> viewEnrollmentHistory() {
+        String username = getCurrentUsername();
+        List<ClassEnrollment> enrollments = classEnrollmentService.viewEnrollmentHistory(username);
+        return ResponseEntity
+                .ok(new ResponseObject("success", "Enrollment history retrieved successfully", enrollments));
+    }
+
+    // Xem giỏ hàng
     @GetMapping("/cart")
     @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> viewCart(HttpServletRequest request) {
-        List<String> cart = CookieUtil.getRegistrationListFromCookie(request);
-        return ResponseEntity.ok(new ResponseObject("success", "Cart retrieved successfully", cart));
+    public ResponseEntity<ResponseObject> viewCart() {
+        try {
+            String username = getCurrentUsername();
+            List<ClassEnrollment> cart = classEnrollmentService.viewCart(username);
+            return ResponseEntity.ok(new ResponseObject("success", "Cart retrieved successfully", cart));
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(new ResponseObject("error", e.getMessage(), null));
+        }
     }
 
-    // Đưa tất cả enroll-classes vào database
-    @PostMapping("/enroll-classes")
-    @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> enrollClasses(@RequestParam Integer studentId,
-            @RequestParam String courseCode,
-            HttpServletRequest request, HttpServletResponse response) {
-        enrollmentService.enrollAllClassesFromCookie(request, response, courseCode);
-        return ResponseEntity.ok(new ResponseObject("success", "Classes enrolled successfully.", null));
-    }
-
-    // API để xóa lớp học
-    @PostMapping("/drop-class")
-    @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> dropClass(@RequestParam Integer studentId, @RequestParam String classCode,
-            @RequestParam String courseCode) {
-        enrollmentService.dropClass(studentId, classCode, courseCode);
-        return ResponseEntity.ok(new ResponseObject("success", "Class dropped successfully.", null));
-    }
-
-    // Lịch sử đăng kí
-    @GetMapping("/enrollment-history")
-    @PreAuthorize("hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> getEnrollmentHistory(@RequestParam Integer studentId) {
-        List<ClassEnrollment> enrollmentHistory = enrollmentService.getEnrollmentHistory(studentId);
-        return ResponseEntity
-                .ok(new ResponseObject("success", "Enrollment history retrieved successfully", enrollmentHistory));
+    // Lấy username của user hiện tại từ SecurityContext
+    private String getCurrentUsername() {
+        return ((UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUsername();
     }
 }
