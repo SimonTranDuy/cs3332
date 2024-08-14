@@ -65,5 +65,15 @@ public class ClassEnrollment {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    public String toString() {
+        return "ClassEnrollment{" +
+                "id=" + id +
+                ", student=" + student +
+                ", enrolledClass=" + enrolledClass +
+                ", enrollmentDate=" + enrollmentDate +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }
 
