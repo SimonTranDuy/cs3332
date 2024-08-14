@@ -34,33 +34,31 @@ public class ClassController {
     }
 
     // Sửa lớp học theo classCode và courseCode
-    @PutMapping("/update")
+    @PutMapping("/update/{classCode}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<ResponseObject> updateClass(@RequestParam String courseCode,
-            @RequestParam String classCode,
-            @RequestBody Class updatedClass) {
-        Optional<Class> updated = classService.updateClass(courseCode, classCode, updatedClass);
+    public ResponseEntity<ResponseObject> updateClass(@PathVariable String classCode, @RequestBody Class updatedClass) {
+        Optional<Class> updated = classService.updateClass(classCode, updatedClass);
         if (updated.isPresent()) {
             return ResponseEntity.status(HttpStatus.OK)
                     .body(new ResponseObject("success", "Class updated successfully", updated.get()));
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                    .body(new ResponseObject("error", "Class not found", null));
+                    .body(new ResponseObject("failed", "Class not found for update", null));
         }
     }
 
     // Xóa lớp học theo classCode và courseCode
-    @DeleteMapping("/delete")
+    @DeleteMapping("/delete/{classCode}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<ResponseObject> deleteClass(@RequestParam String courseCode,
-            @RequestParam String classCode) {
-        try {
-            classService.deleteClass(courseCode, classCode);
+    public ResponseEntity<ResponseObject> deleteClass(@PathVariable String classCode) {
+        Optional<Class> foundClass = classService.searchClassInCourse(classCode);
+        if (foundClass.isPresent()) {
+            classService.deleteClass(classCode);
             return ResponseEntity.status(HttpStatus.OK)
                     .body(new ResponseObject("success", "Class deleted successfully", null));
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body(new ResponseObject("error", e.getMessage(), null));
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body(new ResponseObject("failed", "Class not found for deletion", null));
         }
     }
 
@@ -82,17 +80,16 @@ public class ClassController {
                 .body(new ResponseObject("success", "All classes retrieved successfully", classes));
     }
 
-    @GetMapping("/search")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")
-    public ResponseEntity<ResponseObject> searchClassInCourse(@RequestParam String courseCode,
-            @RequestParam String classCode) {
-        Optional<Class> foundClass = classService.searchClassInCourse(courseCode, classCode);
+    @GetMapping("/search/{classCode}")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")  
+    public ResponseEntity<ResponseObject> searchClass(@PathVariable String classCode) {
+        Optional<Class> foundClass = classService.searchClassInCourse(classCode);
         if (foundClass.isPresent()) {
             return ResponseEntity.status(HttpStatus.OK)
                     .body(new ResponseObject("success", "Class found", foundClass.get()));
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                    .body(new ResponseObject("error", "Class not found in the specified course", null));
+                    .body(new ResponseObject("failed", "Class not found", null));
         }
     }
 

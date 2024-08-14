@@ -11,4 +11,5 @@ import java.util.List;
 public interface ClassRepository extends JpaRepository<Class, String> {
     List<Class> findByCourseCourseCode(String courseCode); // Tìm các lớp theo courseCode
     Optional<Class> findByClassCodeAndCourseCourseCode(String classCode, String courseCode);
+    Optional<Class> findByClassCode(String classCode);
 }

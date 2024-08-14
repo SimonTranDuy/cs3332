@@ -44,15 +44,18 @@ public class ClassService {
     }
 
     // Tìm kiếm lớp học theo classCode trong một khóa học cụ thể
-    public Optional<Class> searchClassInCourse(String courseCode, String classCode) {
-        return classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode);
+    public Optional<Class> searchClassInCourse(String classCode) {
+        return classRepository.findByClassCode(classCode);
     }
 
     // Sửa lớp học theo classCode và courseCode
     @Transactional
-    public Optional<Class> updateClass(String courseCode, String classCode, Class updatedClass) {
-        return classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode)
+    public Optional<Class> updateClass(String classCode, Class updatedClass) {
+        return classRepository.findByClassCode(classCode)
                 .map(existingClass -> {
+                    // Lấy courseCode từ existingClass
+                    String courseCode = existingClass.getCourse().getCourseCode();
+    
                     // Tìm và gán đối tượng Course vào existingClass
                     Optional<Course> optionalCourse = courseRepository.findByCourseCode(courseCode);
                     if (!optionalCourse.isPresent()) {
@@ -60,10 +63,10 @@ public class ClassService {
                     }
                     Course course = optionalCourse.get();
                     existingClass.setCourse(course);
-
+    
                     // Gọi hàm validate để kiểm tra ngày bắt đầu và kết thúc
                     validateClassDates(updatedClass.getStartDate(), updatedClass.getEndDate());
-
+    
                     // Cập nhật các thuộc tính khác của lớp học từ updatedClass vào existingClass
                     existingClass.setMaxStudents(updatedClass.getMaxStudents());
                     existingClass.setCurrentStudentCount(updatedClass.getCurrentStudentCount());
@@ -72,14 +75,14 @@ public class ClassService {
                     existingClass.setRegistrationDeadline(updatedClass.getRegistrationDeadline());
                     existingClass.setDayOfWeek(updatedClass.getDayOfWeek());
                     // Các thuộc tính khác nếu có
-
+    
                     return classRepository.save(existingClass);
                 });
-    } 
+    }
     
     // Xóa lớp học theo classCode và courseCode
-    public void deleteClass(String courseCode, String classCode) {
-        classRepository.findByClassCodeAndCourseCourseCode(classCode, courseCode).ifPresent(classRepository::delete);
+    public void deleteClass(String classCode) {
+        classRepository.findByClassCode(classCode).ifPresent(classRepository::delete);
     }
 
     // Hiển thị các lớp theo courseCode
