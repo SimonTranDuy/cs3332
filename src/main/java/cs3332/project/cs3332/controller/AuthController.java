@@ -5,7 +5,10 @@ import cs3332.project.cs3332.model.ResponseObject;
 import cs3332.project.cs3332.model.Student;
 import cs3332.project.cs3332.components.JwtTokenUtil;
 import cs3332.project.cs3332.repository.UserRepository;
+import cs3332.project.cs3332.service.SystemSettingService;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -14,6 +17,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.security.core.Authentication;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,14 +41,30 @@ public class AuthController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private SystemSettingService systemSettingService;
+
     // Đăng nhập và nhận access token + refresh token
     @PostMapping("/login")
     public ResponseEntity<ResponseObject> createAuthenticationToken(@RequestBody AuthRequest authRequest)
             throws Exception {
-        authenticationManager.authenticate(
+
+        // Tiến hành xác thực thông tin đăng nhập
+        Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
 
-        final UserDetails userDetails = userDetailsService.loadUserByUsername(authRequest.getUsername());
+        final UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+
+        // Kiểm tra nếu người dùng không phải là admin và đăng nhập bị tắt
+        boolean isAdmin = userDetails.getAuthorities().stream()
+                .anyMatch(role -> role.getAuthority().equals("ROLE_ADMIN"));
+
+        if (!isAdmin && !systemSettingService.isLoginAllowed()) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN)
+                    .body(new ResponseObject("error", "Login is currently disabled by the administrator.", null));
+        }
+
+        // Nếu mọi thứ hợp lệ, tạo token đăng nhập
         final String accessToken = jwtTokenUtil.generateAccessToken(userDetails);
         final String refreshToken = jwtTokenUtil.generateRefreshToken(userDetails);
 

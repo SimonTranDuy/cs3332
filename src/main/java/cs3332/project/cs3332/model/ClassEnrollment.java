@@ -66,6 +66,7 @@ public class ClassEnrollment {
         this.status = status;
     }
 
+    @Override
     public String toString() {
         return "ClassEnrollment{" +
                 "id=" + id +

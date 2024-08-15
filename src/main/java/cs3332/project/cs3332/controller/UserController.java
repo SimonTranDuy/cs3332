@@ -5,6 +5,8 @@ import cs3332.project.cs3332.model.Student;
 import cs3332.project.cs3332.model.ResponseObject;
 import cs3332.project.cs3332.service.AdminService;
 import cs3332.project.cs3332.service.StudentService;
+import cs3332.project.cs3332.service.SystemSettingService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -21,6 +23,17 @@ public class UserController {
 
     @Autowired
     private AdminService adminService;
+
+    @Autowired
+    private SystemSettingService systemSettingService;
+
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PostMapping("/toggle-student-login")
+    public ResponseEntity<ResponseObject> toggleStudentLogin(@RequestParam boolean isAllowed) {
+        systemSettingService.setLoginAllowed(isAllowed);
+        String message = isAllowed ? "Student login has been enabled." : "Student login has been disabled.";
+        return ResponseEntity.ok(new ResponseObject("success", message, null));
+    }
 
     // Sinh viên xem thông tin của chính mình
     @GetMapping("/student/me")
