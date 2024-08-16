@@ -12,6 +12,9 @@
 ## Deadline
 - **Project Completion Deadline:** 21/08/2024
 
+## Use Case Diagram
+![alt text](Diagram/svg-use_case.svg)
+
 ## Class Diagram 
 ![Diagram/svg-class.svg](Diagram/svg-class.svg)
 
