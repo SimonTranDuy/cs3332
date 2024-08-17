@@ -162,7 +162,7 @@ public class ClassEnrollmentService {
     // Xem lịch sử đã đăng kí
     public List<ClassEnrollment> viewEnrollmentHistory(String studentUsername) {
         Student student = studentRepository.findByUsername(studentUsername);
-        return classEnrollmentRepository.findByStudentAndStatus(student, "PENDING");
+        return classEnrollmentRepository.findByStudentAndStatus(student, "REGISTERED");
     }
 
     public List<ClassEnrollment> registerAllClassesInCart(String studentUsername) throws Exception {
