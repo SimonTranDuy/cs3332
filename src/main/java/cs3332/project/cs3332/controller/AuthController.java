@@ -68,9 +68,16 @@ public class AuthController {
         final String accessToken = jwtTokenUtil.generateAccessToken(userDetails);
         final String refreshToken = jwtTokenUtil.generateRefreshToken(userDetails);
 
+        // Lấy vai trò của người dùng
+        String role = userDetails.getAuthorities().stream()
+            .map(auth -> auth.getAuthority())
+            .findFirst()
+            .orElse("ROLE_USER");
+
         Map<String, String> tokens = new HashMap<>();
         tokens.put("accessToken", accessToken);
         tokens.put("refreshToken", refreshToken);
+        tokens.put("role", role);  // Thêm vai trò vào phản hồi
 
         return ResponseEntity.ok(new ResponseObject("success", "Login successful", tokens));
     }
