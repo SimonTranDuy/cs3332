@@ -55,6 +55,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+    // This is required to use the AuthenticationManager in the JWT authentication filter
     @Bean
     public AuthenticationManager authManager(HttpSecurity http) throws Exception {
         AuthenticationManagerBuilder authenticationManagerBuilder =
@@ -69,11 +70,11 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(List.of("*")); // Allow all origins
         configuration.setAllowedMethods(List.of("*")); // Allow all methods
         configuration.setAllowedHeaders(List.of("*"));  // Allow all headers
-        configuration.setAllowCredentials(true);  // Allow credentials
-        
+        configuration.addAllowedOriginPattern("*");  // Allow credentials
+
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
-        
+
         return source;
     }
 }

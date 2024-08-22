@@ -10,6 +10,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 @Entity
 @Table(name = "classes")
@@ -20,6 +22,7 @@ public class Class {
     private String classCode;
 
     @ManyToOne
+
     @JoinColumn(name = "course_code", referencedColumnName = "course_code", nullable = false)
     private Course course;
 
